@@ -9,7 +9,7 @@
 
 - <H4>기능 설명</H4>
 <H5>&nbsp;&nbsp;&nbsp;&nbsp;Mutithread 각각의 사용율을 graph로 나타내준다.</H5>
-
+- <H5>기대 효과</H5>
 
 
 <H3>4. 사용되는 Github 오픈소스 SW 목록</H3>
