@@ -1,12 +1,12 @@
 # 4조 Project
 <H3>1. 프로젝트 이름</H3>
-- View Multithread Usability
+- <H5>View Multithread Usability</H5>
 
 <H3>2. 팀멤버</H3>
-- 김창희
-- 박승세
-- 서동훈
-- 정소희
+- <H5>김창희</H5>
+- <H5>박승세</H5>
+- <H5>서동훈</H5>
+- <H5>정소희</H5>
 
 <H3>3. 프로젝트 내용 (설명)</H3>
 
