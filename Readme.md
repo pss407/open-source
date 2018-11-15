@@ -8,7 +8,7 @@
 <H3>3. 프로젝트 내용 (설명)</H3>
 
 - <H4>기능 설명</H4>
-<H5>&nbsp;&nbsp;Mutithread 각각의 사용율을 graph로 나타내준다.</H5>
+<H5>&nbsp;&nbsp;&nbsp;Mutithread 각각의 사용율을 graph로 나타내준다.</H5>
 
 
 
