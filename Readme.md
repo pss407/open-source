@@ -15,8 +15,7 @@
 
 <H3>4. 사용되는 Github 오픈소스 SW 목록</H3>
 
-- <H5> brendangregg/perf-tools 
-- <H5> ----------> https://github.com/brendangregg/perf-tools
-- <H5> intel-cmt-cat/pqos  https://github.com/intel/intel-cmt-cat/tree/master/pqos
+- <H5> brendangregg/perf-tools ----------> https://github.com/brendangregg/perf-tools
+- <H5> intel-cmt-cat/pqos ----------> https://github.com/intel/intel-cmt-cat/tree/master/pqos
 
 <H3>5. 이 작업 이후, 추가적으로 진행되면 좋을 작업들</H3>
