@@ -23,4 +23,4 @@
 - <H5> intel-cmt-cat/pqos ----------> https://github.com/intel/intel-cmt-cat/tree/master/pqos
 
 <H3>5. 이 작업 이후, 추가적으로 진행되면 좋을 작업들</H3>
-- <H5> Thread와 process의매칭을 시각화 </H5>
+- <H5> Thread와 process의 매칭을 시각화 </H5>
