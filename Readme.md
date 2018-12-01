@@ -23,7 +23,8 @@
 
 
 <H3>4. 사용되는 Github 오픈소스 SW 목록</H3>
-Microsoft/vscode-docs-authoring: https://github.com/Microsoft/vscode-docs-authoring
+- Microsoft/vscode-docs-authoring: https://github.com/Microsoft/vscode-docs-authoring
+- mjbvz/vscode-github-markdown-preview-style: https://github.com/mjbvz/vscode-github-markdown-preview-style
 
 
 
