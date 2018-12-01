@@ -1,6 +1,6 @@
 # 4조 Project
 <H3>1. 프로젝트 이름</H3>
-- <H5>View Multithread Usability</H5>
+- <H5>Visual Studio Code를 이용한 Markdown 편집기</H5>
 
 <H3>2. 팀멤버</H3>
 - <H5>김창희, 박승세, 서동훈, 정소희</H5>
