@@ -1,0 +1,331 @@
+{
+	"name": "docs-markdown",
+	"displayName": "docs-markdown",
+	"description": "Docs Markdown Extension",
+	"icon": "images/docs-logo-ms.png",
+	"aiKey": "AIF-d9b70cd4-b9f9-4d70-929b-a071c400b217",
+	"version": "0.1.5",
+	"publisher": "docsmsft",
+	"homepage": "https://github.com/Microsoft/vscode-docs-authoring/tree/master/docs-markdown",
+	"bugs": {
+		"url": "https://github.com/Microsoft/vscode-docs-authoring/issues"
+	},
+	"engines": {
+		"vscode": "^1.22.0"
+	},
+	"repository": {
+		"url": "https://github.com/Microsoft/vscode-docs-authoring.git"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"markdown"
+	],
+	"activationEvents": [
+		"onLanguage:markdown"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "markdownQuickPick",
+				"title": "Docs: Markdown authoring menu"
+			},
+			{
+				"command": "generateMasterRedirectionFile",
+				"title": "Generate master redirection file",
+				"category": "Docs"
+			},
+			{
+				"command": "formatBold",
+				"title": "Bold",
+				"category": "Docs"
+			},
+			{
+				"command": "formatItalic",
+				"title": "Italic",
+				"category": "Docs"
+			},
+			{
+				"command": "formatCode",
+				"title": "Code",
+				"category": "Docs"
+			},
+			{
+				"command": "insertAlert",
+				"title": "Alert",
+				"category": "Docs"
+			},
+			{
+				"command": "insertNumberedList",
+				"title": "Numbered list",
+				"category": "Docs"
+			},
+			{
+				"command": "insertBulletedList",
+				"title": "Bulleted list",
+				"category": "Docs"
+			},
+			{
+				"command": "insertTable",
+				"title": "Table",
+				"category": "Docs"
+			},
+			{
+				"command": "selectLinkType",
+				"title": "Link to heading",
+				"category": "Docs"
+			},
+			{
+				"command": "insertLink",
+				"title": "Link to file in repo",
+				"category": "Docs"
+			},
+			{
+				"command": "insertURL",
+				"title": "Link to web",
+				"category": "Docs"
+			},
+			{
+				"command": "insertImage",
+				"title": "Image",
+				"category": "Docs"
+			},
+			{
+				"command": "insertInclude",
+				"title": "Include",
+				"category": "Docs"
+			},
+			{
+				"command": "insertSnippet",
+				"title": "Snippets",
+				"category": "Docs"
+			},
+			{
+				"command": "insertVideo",
+				"title": "Video",
+				"category": "Docs"
+			},
+			{
+				"command": "previewTopic",
+				"title": "Preview",
+				"category": "Docs"
+			},
+			{
+				"command": "applyTemplate",
+				"title": "Template",
+				"category": "Docs"
+			}
+		],
+		"menus": {
+			"editor/title": [
+				{
+					"when": "resourceLangId == markdown",
+					"command": "markdown.showPreview",
+					"alt": "markdown.showPreviewToSide",
+					"group": "navigation"
+				}
+			],
+			"commandPalette": [
+				{
+					"command": "markdownQuickPick"
+				},
+				{
+					"command": "generateMasterRedirectionFile",
+					"group": "Docs"
+				},
+				{
+					"command": "formatBold",
+					"group": "Docs",
+					"when": "resourceLangId == markdown"
+				},
+				{
+					"command": "formatItalic",
+					"group": "Docs",
+					"when": "resourceLangId == markdown"
+				},
+				{
+					"command": "formatCode",
+					"group": "Docs",
+					"when": "resourceLangId == markdown"
+				},
+				{
+					"command": "insertAlert",
+					"group": "Docs",
+					"when": "resourceLangId == markdown"
+				},
+				{
+					"command": "insertNumberedList",
+					"group": "Docs",
+					"when": "resourceLangId == markdown"
+				},
+				{
+					"command": "insertBulletedList",
+					"group": "Docs",
+					"when": "resourceLangId == markdown"
+				},
+				{
+					"command": "insertTable",
+					"group": "Docs",
+					"when": "resourceLangId == markdown"
+				},
+				{
+					"command": "selectLinkType",
+					"group": "Docs",
+					"when": "resourceLangId == markdown"
+				},
+				{
+					"command": "insertLink",
+					"group": "Docs",
+					"when": "resourceLangId == markdown"
+				},
+				{
+					"command": "insertURL",
+					"group": "Docs",
+					"when": "resourceLangId == markdown"
+				},
+				{
+					"command": "insertImage",
+					"group": "Docs",
+					"when": "resourceLangId == markdown"
+				},
+				{
+					"command": "insertInclude",
+					"group": "Docs",
+					"when": "resourceLangId == markdown"
+				},
+				{
+					"command": "insertSnippet",
+					"group": "Docs",
+					"when": "resourceLangId == markdown"
+				},
+				{
+					"command": "insertVideo",
+					"group": "Docs",
+					"when": "resourceLangId == markdown"
+				},
+				{
+					"command": "previewTopic",
+					"group": "Docs",
+					"when": "resourceLangId == markdown && vscode.extensions.getExtension('docsmsft.docs-preview').active"
+				},
+				{
+					"command": "applyTemplate",
+					"group": "Docs",
+					"when": "vscode.extensions.getExtension('docsmsft.docs-article-templates').active"
+				}
+			]
+		},
+		"configuration": {
+			"type": "object",
+			"title": "Docs Markdown Extension Configuration",
+			"properties": {
+				"markdown.showToolbar": {
+					"type": "boolean",
+					"default": false,
+					"description": "Show the legacy toolbar in the bottom status bar.",
+					"scope": "window"
+				}
+			}
+		},
+		"keybindings": [
+			{
+				"command": "markdownQuickPick",
+				"key": "Alt+M",
+				"mac": "Alt+M",
+				"when": "editorTextFocus && editorLangId == 'markdown'"
+			},
+			{
+				"command": "automaticList",
+				"key": "enter",
+				"mac": "enter",
+				"when": "editorTextFocus && editorLangId == markdown && !suggestWidgetVisible && !vim.active"
+			},
+			{
+				"command": "insertNestedList",
+				"key": "tab",
+				"mac": "tab",
+				"when": "editorTextFocus && editorLangId == markdown && !suggestWidgetVisible && !vim.active"
+			},
+			{
+				"command": "removeNestedList",
+				"key": "backspace",
+				"mac": "backspace",
+				"when": "editorTextFocus && editorLangId == 'markdown' && !vim.active"
+			},
+			{
+				"command": "formatBold",
+				"key": "Alt+D B",
+				"mac": "Alt+D B",
+				"when": "editorTextFocus && editorLangId == 'markdown' && !vim.active"
+			},
+			{
+				"command": "formatItalic",
+				"key": "Alt+D I",
+				"mac": "Alt+D I",
+				"when": "editorTextFocus && editorLangId == 'markdown' && !vim.active"
+			},
+			{
+				"command": "insertURL",
+				"key": "Alt+D K",
+				"mac": "Alt+D K",
+				"when": "editorTextFocus && editorLangId == 'markdown' && !vim.active"
+			},
+			{
+				"command": "insertLink",
+				"key": "Alt+D L",
+				"mac": "Alt+D L",
+				"when": "editorTextFocus && editorLangId == 'markdown' && !vim.active"
+			},
+			{
+				"command": "previewTopic",
+				"key": "Alt+D P",
+				"mac": "Alt+D P",
+				"when": "editorTextFocus && editorLangId == 'markdown' && !vim.active"
+			}
+		],
+		"yamlValidation": [
+			{
+				"fileMatch": "toc.yml",
+				"url": "./schema/toc.schema.json"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"dependencies": {
+		"file-exists": "^5.0.1",
+		"fs-exists-sync": "^0.1.0",
+		"lodash.merge": "^4.6.0",
+		"matcher": "^1.0.0",
+		"node-dir": "^0.1.17",
+		"typescript-collections": "^1.2.3",
+		"vscode-extension-telemetry": "^0.0.6",
+		"yamljs": "^0.3.0"
+	},
+	"devDependencies": {
+		"@types/chai": "^3.4.34",
+		"@types/lodash.merge": "^4.6.3",
+		"@types/mocha": "^2.2.32",
+		"@types/node": "^7.0.61",
+		"@types/node-dir": "0.0.32",
+		"@types/yamljs": "^0.2.30",
+		"chai": "^3.5.0",
+		"mocha": "^5.2.0",
+		"octicons": "^7.3.0",
+		"tslint": "^5.9.1",
+		"typescript": "^2.8.3",
+		"vscode": "^1.1.18"
+	},
+	"license": "MIT",
+	"__metadata": {
+		"id": "9acd9f2e-7de2-4c66-a840-92767af1cb16",
+		"publisherId": "983a9d74-aa98-4a51-97df-0407d7f1a024",
+		"publisherDisplayName": "Microsoft"
+	}
+}
