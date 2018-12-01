@@ -31,4 +31,5 @@
 
 
 <H3>5. 이 작업 이후, 추가적으로 진행되면 좋을 작업들</H3>
-- android, ios 앱 연동
+- android, ios 앱 
+- 가장 표준화된 markdown 확보 및 배포
