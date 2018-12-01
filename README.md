@@ -19,14 +19,9 @@
 2. Markdown 입문 개발자들이 겪는 Markdown 문법의 어려움을 최소화
 ```
 
-
-
-
 ## <H3>4. 사용되는 Github 오픈소스 SW 목록</H3>
 - Microsoft/vscode-docs-authoring: https://github.com/Microsoft/vscode-docs-authoring
 - shd101wyy/vscode-markdown-preview-enhanced: https://github.com/shd101wyy/vscode-markdown-preview-enhanced
-
-
 
 ## <H3>5. 이 작업 이후, 추가적으로 진행되면 좋을 작업들</H3>
 - android, ios 앱 
