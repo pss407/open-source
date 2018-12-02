@@ -27,3 +27,6 @@
 ## <H3>5. 이 작업 이후, 추가적으로 진행되면 좋을 작업들</H3>
 - android, ios 앱 
 - 가장 표준화된 markdown 문법 확보 후 tutorial 서버지원
+
+## LICENSE
+- MIT
