@@ -11,6 +11,7 @@
 1. vscode에서 현재 자신이 작성하고 있는 Markdown의 변경 내용을 별도의 처리 없이 Preview를 통해 실시간으로 확인 가능
 2. Word의 글꼴 편집, table 삽입 등의 기능 추가
 3. Word의 기능 사용법에 관한 영어를 한글화로 기능개선
+4. Markdown을 통한 복잡한 수학식 가능
 ```
 
 - <H4>기대 효과</H4>
@@ -20,11 +21,15 @@
 3. Mac OS의 Markdown 편집기 유료화에 대한 문제점 해소
 ```
 
-## <H3>4. 사용되는 Github 오픈소스 SW 목록</H3>
+## <H3>4. 실행 예시
+```
+```
+
+## <H3>5. 사용되는 Github 오픈소스 SW 목록</H3>
 - Microsoft/vscode-docs-authoring: https://github.com/Microsoft/vscode-docs-authoring
 - shd101wyy/vscode-markdown-preview-enhanced: https://github.com/shd101wyy/vscode-markdown-preview-enhanced
 
-## <H3>5. 이 작업 이후, 추가적으로 진행되면 좋을 작업들</H3>
+## <H3>6. 이 작업 이후, 추가적으로 진행되면 좋을 작업들</H3>
 - android, ios 앱 
 - 가장 표준화된 markdown 문법 확보 후 tutorial 서버지원
 - H 및 #에 따른 숫자 크기 변환을 자율조절 가능하게 지원
