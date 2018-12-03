@@ -76,7 +76,7 @@ function markdownQuickPick() {
     if (common_1.checkExtension("docsmsft.docs-article-templates")) {
         items.push({
             description: "",
-            label: "$(diff) 마크다운 불러오기",
+            label: "$(diff) 작성가능한 마크다운 불러오기",
         });
     }
     vscode.window.showQuickPick(items, opts).then((selection) => {
@@ -135,7 +135,7 @@ function markdownQuickPick() {
             case "미리보기":
                 preview_controller_1.previewTopic();
                 break;
-            case "마크다운 불러오기":
+            case "작성가능한 마크다운 불러오기":
                 template_controller_1.applyTemplate();
                 break;
             default:
