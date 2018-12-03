@@ -25,7 +25,7 @@ function insertTable() {
     if (!common_1.isMarkdownFileCheck(editor, false)) {
         return;
     }
-    const tableInput = vscode.window.showInputBox({ prompt: "Input the number of columns and rows as C:R" });
+    const tableInput = vscode.window.showInputBox({ prompt: "행과 열의 형식을 (행:열)과 같이 입력하기(ex. 1:2)" });
     // gets the users input on number of columns and rows
     tableInput.then((val) => {
         if (!val) {
@@ -43,7 +43,7 @@ function insertTable() {
                 common_1.insertContentToEditor(editor, insertTable.name, str);
             }
             else {
-                extension_1.output.appendLine("Table insert failed.");
+                extension_1.output.appendLine("테이블 삽입 실패");
             }
         }
     });
