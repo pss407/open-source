@@ -34,14 +34,14 @@ function insertVideo() {
     }
     else {
         vscode.window.showInputBox({
-            placeHolder: "Enter URL; https://channel9.msdn.com or https://www.youtube.com is a required prefix for video URLs",
+            placeHolder: "URL입력; https://channel9.msdn.com or https://www.youtube.com 는 비디오 URL에 필요한 Prefix입니다",
             validateInput: (urlInput) => urlInput.startsWith("https://channel9.msdn.com") && urlInput.split("?")[0].endsWith("player") ||
                 urlInput.startsWith("https://www.youtube.com/embed") ? "" :
-                "https://channel9.msdn.com or https://www.youtube.com/embed are required prefixes for video URLs. Link will not be added if prefix is not present.",
+                "https://channel9.msdn.com or https://www.youtube.com/embed 는 비디오 URL에 필요한 Prefix입니다. Prefix가 없으면 링크가 추가 되지 않습니다.",
         }).then((val) => {
             // If the user adds a link that doesn't include the http(s) protocol, show a warning and don't add the link.
             if (val === undefined) {
-                common_1.postWarning("Incorrect link syntax. For YouTube videos, use the embed syntax, https://www.youtube.com/embed/<videoID>. For Channel9videos, use the player syntax, https://channel9.msdn.com/<videoID>/player");
+                common_1.postWarning("Link 문법이 옳지 않습니다. youtube의 경우, 다음과 같은 문법을 포함하시오. https://www.youtube.com/embed/<videoID>. For Channel9videos, use the player syntax, https://channel9.msdn.com/<videoID>/player");
                 return;
             }
             const contentToInsert = utility_1.videoLinkBuilder(val);
@@ -63,16 +63,16 @@ function insertURL() {
     const selection = editor.selection;
     const selectedText = editor.document.getText(selection);
     const options = {
-        placeHolder: "Enter URL",
+        placeHolder: "URL입력",
         validateInput: (urlInput) => urlInput.startsWith("http://") || urlInput.startsWith("https://") ? "" :
-            "http:// or https:// is required for URLs. Link will not be added if prefix is not present.",
+            "http:// or https:// 이 URL로 필요합니다. Prefix가 없으면 링크가 추가 되지 않습니다.",
         value: "https://",
         valueSelection: [8, 8],
     };
     vscode.window.showInputBox(options).then((val) => {
         // If the user adds a link that doesn't include the http(s) protocol, show a warning and don't add the link.
         if (val === undefined) {
-            common_1.postWarning("Incorrect link syntax. Abandoning command.");
+            common_1.postWarning("문법이 옳지 않습니다. 명령어를 삭제합니다.");
         }
         else {
             let contentToInsert;
@@ -165,7 +165,7 @@ function getFilesShowQuickPick(isArt, altText) {
                 // Construct and write out links
                 if (isArt && altText) {
                     if (altText.length > 70) {
-                        vscode.window.showWarningMessage("Alt text exceeds 70 characters!");
+                        vscode.window.showWarningMessage("Text가 70자를 넘었습니다!");
                     }
                     else {
                         result = utility_1.internalLinkBuilder(isArt, path.relative(activeFileDir, path.join(qpSelection.description, qpSelection.label).split("\\").join("\\\\")), altText);
@@ -231,23 +231,23 @@ function Insert(isArt) {
         const fileExists = require("file-exists");
         if (!fileExists(activeFileName)) {
             vscode.window.showWarningMessage(activeFilePath +
-                " is not saved.  Cannot accurately resolve path to create link.");
+                " 저장되지 않았습니다. 링크를 생성할 경로를 정확하게 확인할 수 없습니다.");
             return;
         }
         // Determine if there is selected text.  If selected text, no action.
         if (isArt && selectedText === "") {
             vscode.window.showInputBox({
-                placeHolder: "Add alt text (up to 70 characters)",
+                placeHolder: "파일 첫 개시인 경우 Esc & Ctrl+Shift+P & Image Helper입력",
             }).then((val) => {
                 if (!val) {
                     getFilesShowQuickPick(isArt, "");
-                    vscode.window.showInformationMessage("No alt entered or selected.  File name will be used.");
+                    vscode.window.showInformationMessage("파일명이 입력되지 않았습니다.");
                 }
                 else if (val.length < 70) {
                     getFilesShowQuickPick(isArt, val);
                 }
                 else if (val.length > 70) {
-                    vscode.window.showWarningMessage("Alt text exceeds 70 characters!");
+                    vscode.window.showWarningMessage("Text크기는 70자 이하여야 합니다.");
                 }
             });
         }
