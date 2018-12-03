@@ -22,8 +22,7 @@
 ```
 
 ## <H3>4. 실행 예시
-```
-```
+
 
 ## <H3>5. 사용되는 Github 오픈소스 SW 목록</H3>
 - Microsoft/vscode-docs-authoring: https://github.com/Microsoft/vscode-docs-authoring
@@ -33,6 +32,7 @@
 - android, ios 앱 
 - 가장 표준화된 markdown 문법 확보 후 tutorial 서버지원
 - H 및 #에 따른 숫자 크기 변환을 자율조절 가능하게 지원
+- Visual Studio Code로 작성한 MarkDown을 pdf형식으로 저장 지원
 
 ## LICENSE
 - MIT
