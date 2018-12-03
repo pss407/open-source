@@ -273,7 +273,7 @@ function selectLinkType() {
         if (!common_1.isMarkdownFileCheck(editor, false)) {
             return;
         }
-        const linkTypes = ["Heading in this file", "Heading in another file"];
+        const linkTypes = ["현재 파일에 헤딩이 있습니다.", "다른 파일에 헤딩이 있습니다"];
         vscode.window.showQuickPick(linkTypes).then((qpSelection) => {
             if (qpSelection === linkTypes[0]) {
                 bookmark_controller_1.insertBookmarkInternal();
