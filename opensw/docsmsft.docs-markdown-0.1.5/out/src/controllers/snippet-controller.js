@@ -33,7 +33,7 @@ function insertSnippet() {
     if (!common_1.hasValidWorkSpaceRootPath(telemetryCommand)) {
         return;
     }
-    vscode.window.showInputBox({ prompt: "Enter snippet search terms." }).then(searchRepo);
+    vscode.window.showInputBox({ prompt: "Snippet 검색어 입력" }).then(searchRepo);
 }
 exports.insertSnippet = insertSnippet;
 // finds the directories to search, passes this and the search term to the search function.
@@ -47,14 +47,14 @@ function searchRepo(searchTerm) {
     const selected = editor.selection;
     // There are two kinds of repo searching, whole repo, and scoped folder (both recursive)
     const scopeOptions = [];
-    scopeOptions.push({ label: "Full Search", description: "Look in all directories for snippet" });
-    scopeOptions.push({ label: "Scoped Search", description: "Look in specific directories for snippet" });
+    scopeOptions.push({ label: "전체 검색", description: "모든 디렉토리에서 snippet을 찾습니다." });
+    scopeOptions.push({ label: "범위 검색", description: "특정 디렉토리에서 snippet을 찾습니다." });
     vscode.window.showQuickPick(scopeOptions).then(function searchType(selection) {
         if (!selection) {
             return;
         }
         const searchSelection = selection.label;
-        if (searchSelection === "Full Search") {
+        if (searchSelection === "전체 검색") {
             utility_1.search(editor, selected, searchTerm, folderPath);
         }
         else {
