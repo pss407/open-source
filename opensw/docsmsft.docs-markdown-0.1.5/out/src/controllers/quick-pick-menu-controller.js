@@ -27,42 +27,42 @@ function markdownQuickPick() {
     if (common_1.checkExtension("docsmsft.docs-preview")) {
         items.push({
             description: "",
-            label: "$(browser) Preview",
+            label: "$(browser) 미리보기",
         });
     }
     items.push({
         description: "",
-        label: "$(pencil) Bold",
+        label: "$(pencil) 굵게쓰기",
     }, {
         description: "",
-        label: "$(info) Italic",
+        label: "$(info) 기울임체",
     }, {
         description: "",
-        label: "$(code) Code",
+        label: "$(code) 블록화",
     }, {
         description: "Insert note, tip, important, caution, or warning",
-        label: "$(alert) Alert",
+        label: "$(alert) 알림기능",
     }, {
         description: "",
-        label: "$(list-ordered) Numbered list",
+        label: "$(list-ordered) 번호 목록",
     }, {
         description: "",
-        label: "$(list-unordered) Bulleted list",
+        label: "$(list-unordered) 점 목록",
     }, {
         description: "",
-        label: "$(diff-added) Table",
+        label: "$(diff-added) 테이블",
     }, {
         description: "",
-        label: "$(file-symlink-directory) Link to file in repo",
+        label: "$(file-symlink-directory) 저장소의 파일 연결",
     }, {
         description: "",
-        label: "$(globe) Link to web page",
+        label: "$(globe) 웹페이지 연결",
     }, {
         description: "",
-        label: "$(link) Link to heading",
+        label: "$(link) Heading과 연결",
     }, {
         description: "",
-        label: "$(file-media) Image",
+        label: "$(file-media) 이미지 삽입",
     }, {
         description: "",
         label: "$(clippy) Include",
@@ -71,12 +71,12 @@ function markdownQuickPick() {
         label: "$(file-code) Snippets",
     }, {
         description: "",
-        label: "$(device-camera-video) Video",
+        label: "$(device-camera-video) 비디오 삽입",
     });
     if (common_1.checkExtension("docsmsft.docs-article-templates")) {
         items.push({
             description: "",
-            label: "$(diff) Template",
+            label: "$(diff) Docs Authoring폴더에서 Markdown 불러오기",
         });
     }
     vscode.window.showQuickPick(items, opts).then((selection) => {
@@ -90,7 +90,7 @@ function markdownQuickPick() {
         const convertLabelToLowerCase = selection.label.toLowerCase();
         const selectionWithoutIcon = convertLabelToLowerCase.split(")")[1].trim();
         switch (selectionWithoutIcon) {
-            case "bold":
+            case "굵게쓰기":
                 bold_controller_1.formatBold();
                 break;
             case "italic":
