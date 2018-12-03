@@ -22,7 +22,7 @@
 ```
 
 ## <H3>4. 실행 예시
-
+![Alt Text](https://user-images.githubusercontent.com/45034295/49389212-1625c180-f769-11e8-9e55-56cff083089d.gif)
 
 ## <H3>5. 사용되는 Github 오픈소스 SW 목록</H3>
 - Microsoft/vscode-docs-authoring: https://github.com/Microsoft/vscode-docs-authoring
