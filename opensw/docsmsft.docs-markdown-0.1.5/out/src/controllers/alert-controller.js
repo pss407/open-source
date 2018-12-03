@@ -29,8 +29,8 @@ function insertAlert() {
             return;
         }
         const alertTypes = [
-            "Note – Information the user should notice even if skimming",
-            "Tip - Optional information to help a user be more successful",
+            "Note – 스킵 시 사용자가 가져서는 안 되는 정보",
+            "Tip - 사용자의 성공에 도움이 되는 선택적 정보",
             "Important – Essential information required for user success",
             "Caution - Negative potential consequences of an action",
             "Warning – Dangerous certain consequences of an action",
