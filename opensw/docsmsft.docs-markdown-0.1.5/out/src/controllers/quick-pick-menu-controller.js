@@ -22,7 +22,7 @@ function quickPickMenuCommand() {
 }
 exports.quickPickMenuCommand = quickPickMenuCommand;
 function markdownQuickPick() {
-    const opts = { placeHolder: "Which Markdown command would you like to run?" };
+    const opts = { placeHolder: "어떤 기능을 돌리시고 싶으십니까?" };
     const items = [];
     if (common_1.checkExtension("docsmsft.docs-preview")) {
         items.push({
@@ -65,7 +65,7 @@ function markdownQuickPick() {
         label: "$(file-media) 이미지 삽입",
     }, {
         description: "",
-        label: "$(clippy) Include",
+        label: "$(clippy) 파일 포함시키기",
     }, {
         description: "",
         label: "$(file-code) Snippets",
@@ -93,49 +93,49 @@ function markdownQuickPick() {
             case "굵게쓰기":
                 bold_controller_1.formatBold();
                 break;
-            case "italic":
+            case "기울임체":
                 italic_controller_1.formatItalic();
                 break;
-            case "code":
+            case "블록화":
                 code_controller_1.formatCode();
                 break;
-            case "alert":
+            case "알림기능":
                 alert_controller_1.insertAlert();
                 break;
-            case "numbered list":
+            case "번호 목록":
                 list_controller_1.insertNumberedList();
                 break;
-            case "bulleted list":
+            case "점 목록":
                 list_controller_1.insertBulletedList();
                 break;
-            case "table":
+            case "테이블":
                 table_controller_1.insertTable();
                 break;
-            case "link to file in repo":
+            case "저장소의 파일 연결":
                 media_controller_1.Insert(false);
                 break;
-            case "link to web page":
+            case "웹페이지 연결":
                 media_controller_1.insertURL();
                 break;
-            case "link to heading":
+            case "Heading과 연결":
                 media_controller_1.selectLinkType();
                 break;
-            case "image":
+            case "이미지 삽입":
                 media_controller_1.insertImage();
                 break;
-            case "include":
+            case "파일 포함시키기":
                 include_controller_1.insertInclude();
                 break;
-            case "snippets":
+            case "Snippets":
                 snippet_controller_1.insertSnippet();
                 break;
-            case "video":
+            case "비디오 삽입":
                 media_controller_1.insertVideo();
                 break;
-            case "preview":
+            case "미리보기":
                 preview_controller_1.previewTopic();
                 break;
-            case "template":
+            case "Docs Authoring폴더에서 Markdown 불러오기":
                 template_controller_1.applyTemplate();
                 break;
             default:
