@@ -30,4 +30,4 @@
 
 ## LICENSE
 - MIT
-- NCSA
+- University of Illinois/NCSA Open Source License
