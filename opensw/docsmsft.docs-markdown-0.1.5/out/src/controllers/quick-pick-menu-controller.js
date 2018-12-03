@@ -59,7 +59,7 @@ function markdownQuickPick() {
         label: "$(globe) 웹페이지 연결",
     }, {
         description: "",
-        label: "$(link) Heading과 연결",
+        label: "$(link) 헤딩과 연결",
     }, {
         description: "",
         label: "$(file-media) 이미지 삽입",
@@ -68,7 +68,7 @@ function markdownQuickPick() {
         label: "$(clippy) 파일 포함시키기",
     }, {
         description: "",
-        label: "$(file-code) Snippets",
+        label: "$(file-code) 스니펫",
     }, {
         description: "",
         label: "$(device-camera-video) 비디오 삽입",
@@ -76,7 +76,7 @@ function markdownQuickPick() {
     if (common_1.checkExtension("docsmsft.docs-article-templates")) {
         items.push({
             description: "",
-            label: "$(diff) Docs Authoring폴더에서 Markdown 불러오기",
+            label: "$(diff) 마크다운 불러오기",
         });
     }
     vscode.window.showQuickPick(items, opts).then((selection) => {
@@ -117,7 +117,7 @@ function markdownQuickPick() {
             case "웹페이지 연결":
                 media_controller_1.insertURL();
                 break;
-            case "Heading과 연결":
+            case "헤딩과 연결":
                 media_controller_1.selectLinkType();
                 break;
             case "이미지 삽입":
@@ -126,7 +126,7 @@ function markdownQuickPick() {
             case "파일 포함시키기":
                 include_controller_1.insertInclude();
                 break;
-            case "Snippets":
+            case "스니펫":
                 snippet_controller_1.insertSnippet();
                 break;
             case "비디오 삽입":
@@ -135,7 +135,7 @@ function markdownQuickPick() {
             case "미리보기":
                 preview_controller_1.previewTopic();
                 break;
-            case "Docs Authoring폴더에서 Markdown 불러오기":
+            case "마크다운 불러오기":
                 template_controller_1.applyTemplate();
                 break;
             default:
