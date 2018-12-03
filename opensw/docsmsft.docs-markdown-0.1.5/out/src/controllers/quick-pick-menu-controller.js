@@ -62,7 +62,7 @@ function markdownQuickPick() {
         label: "$(link) Heading과 연결",
     }, {
         description: "",
-        label: "$(file-media) 이미지 삽입(파일 첫 개시인경우: Esc후 Ctrl+Shift+P -> Image Helper실행)",
+        label: "$(file-media) 이미지 삽입",
     }, {
         description: "",
         label: "$(clippy) 파일 포함시키기",
@@ -120,7 +120,7 @@ function markdownQuickPick() {
             case "Heading과 연결":
                 media_controller_1.selectLinkType();
                 break;
-            case "이미지 삽입(파일 첫 개시인경우: Esc후 Ctrl+Shift+P -> Image Helper실행)":
+            case "이미지 삽입":
                 media_controller_1.insertImage();
                 break;
             case "파일 포함시키기":
