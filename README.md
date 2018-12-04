@@ -8,7 +8,7 @@
 
 ## <H3>3. 개발 동기 및 과정</H3>
 
-## <H3>3. 프로젝트 내용</H3>
+## <H3>4. 프로젝트 내용</H3>
 - <H4>기능 설명</H4>
 ```
 1. vscode에서 현재 자신이 작성하고 있는 Markdown의 변경 내용을 별도의 처리 없이 Preview를 통해 실시간으로 확인 가능
@@ -25,15 +25,15 @@
 4. Preview를 보기 위해 Github에 접속할 필요가 없어서 별도의 네트워크 연결이 없이도 작성 후 문서화 가능 
 ```
 
-## <H3>4. 실행 예시
+## <H3>5. 실행 예시
 1. preview를 통해 번호매기기, 테이블생성하기, 사진 추가하기
 ![Alt Text](https://user-images.githubusercontent.com/45034295/49389212-1625c180-f769-11e8-9e55-56cff083089d.gif)
 
-## <H3>5. 사용되는 Github 오픈소스 SW 목록</H3>
+## <H3>6. 사용되는 Github 오픈소스 SW 목록</H3>
 - Microsoft/vscode-docs-authoring: https://github.com/Microsoft/vscode-docs-authoring
 - shd101wyy/vscode-markdown-preview-enhanced: https://github.com/shd101wyy/vscode-markdown-preview-enhanced
 
-## <H3>6. 이 작업 이후, 추가적으로 진행되면 좋을 작업들</H3>
+## <H3>7. 이 작업 이후, 추가적으로 진행되면 좋을 작업들</H3>
 - android, ios 앱 
 - 가장 표준화된 markdown 문법 확보 후 tutorial 서버지원
 - H 및 #에 따른 숫자 크기 변환을 자율조절 가능하게 지원
