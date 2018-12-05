@@ -63,6 +63,30 @@
     
     4. Preview를 보기 위해 Github에 접속할 필요가 없어서 별도의 네트워크 연결이 없이도 작성 후 문서화 가능
     
+### <H4>오픈소스 사용하는 법</H5>
+
+    1. docs기능 사용법
+    - Docs Markdown에 접그한기 위해 type `ALT+M` 입력. 
+    - 원하는 기능을 선택하기 위해 클릭하거나 위쪽/아래쪽 화살표를 사용하여 필터링을 시작한 다음,
+      메뉴에서 원하는 기능이 강조 표시되면 'ENTER'를 누르십시오.
+    - 제공 되는 기능:
+
+|Function     |Command             |Description           |
+|-------------|--------------------|----------------------|
+|굵게쓰기         |`formatBold`        |Formats text **bold**.|
+|기울임체       |`formatItalic`      |Formats text *italic*.|
+|블록화         |`formatCode`        |If one line or less is selected, formats text as `inline code`.<br><br>If multiple lines are selected, formats them as a fenced code block, and allows you to optionally select a programming language supported by OPS.<br><br>If no language is selected, inserts an empty fenced code block.|
+|알림기능        |`insertAlert`       |Inserts a Note, Important, Warning, or Tip.<br><br>Select Alert from the menu, then select the alert type. If you have previously selected text, it will be surrounded with the selected alert syntax. If no text is selected, a new alert will be added with placeholder text.|
+|번호 목록|`insertNumberedList` |Inserts a new numbered list.<br><br> If multiple lines are selected, each will be a list item. Note that numbered lists show in the Markdown as all 1s, but will render on docs.microsoft.com as sequential numbers or, for nested lists, letters. To create a nested numbered list, tab from within the parent list.|
+|점 목록|`insertBulletedList` |Inserts a new bulleted list.|
+|테이블        |`insertTable`        |Inserts a Markdown table structure.<br><br>After you select the table command, specify the number of columns and rows in the format columns:rows, such as 3:4. Note that the maximum number of columns you can specify via this extension is 5, which is the recommended maximum for readability.|
+|저장소 파일과 연결         |`selectLinkType`      |Inserts a link. When you select this command, the following sub-menu appears.<br><br>`External`: Link to a web page by URI. Must include "http" or "https".<br>`Internal`: Insert a relative link to another file in the same repo. After selecting this option, type in the command window to filter files by name, then select the file you want. <br>`Bookmark in this file`: Choose from a list of headings in the current file to insert a properly formatted bookmark.<br>`Bookmark in another file`: First, filter by file name and select the file to link to, then choose the appropriate heading within the selected file.|
+|이미지 삽입        |`insertImage`     |Type alternate text (required for accessibility) and select it, then call this command to filter the list of supported image files in the repo and select the one you want. If you haven't selected alt text when you call this command, you will be prompted for it before you can select an image file.|
+|파일 포함시키기      |`insertInclude`   |Find a file to embed in the current file.|
+|스니펫      |`insertSnippet`   |Find a code snippet in the repo to embed in the current file.|
+|비디오 삽입        |`insertVideo`     |Add an embedded video.|
+|미리보기      |`previewTopic`    |Preview the active topic in a side-by-side window using the DocFX extension.  If the DocFX extension is not installed or is installed but disabled, the topic will not render.
+    
 ### <H4>오픈소스 사용시 팁</H4>
 
 > The <kbd>cmd</kbd> key for _Windows_ is <kbd>ctrl</kbd>.
