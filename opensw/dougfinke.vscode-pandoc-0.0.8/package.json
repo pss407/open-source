@@ -29,20 +29,11 @@
 			"type": "object",
 			"title": "Pandoc Option Configuration",
 			"properties": {
-				"pandoc.pdfOptString": {
-					"type": "string",
-					"default": "",
-					"description": "pandoc .pdf output option template that you would like to use"
-				},
+				
 				"pandoc.docxOptString": {
 					"type": "string",
 					"default": "",
 					"description": "pandoc .docx output option template that you would like to use"
-				},
-				"pandoc.htmlOptString": {
-					"type": "string",
-					"default": "",
-					"description": "pandoc .html output option template that you would like to use"
 				}
 			}
 		},
