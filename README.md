@@ -1,8 +1,9 @@
 # 4조 Project
 <H3>1. 프로젝트 이름</H3>
 - <H5>Visual Studio Code를 이용한 Markdown 편집기</H5>
+<center>
 ![Alt Text](https://user-images.githubusercontent.com/45596085/49505684-a37b2a00-f8bf-11e8-96cb-032df145166d.PNG)
-
+</center>
 
 ## <H3>2. 팀멤버 및 각 역할</H3>
 |이름  |역할  |
