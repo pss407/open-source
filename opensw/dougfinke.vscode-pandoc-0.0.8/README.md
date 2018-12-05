@@ -45,18 +45,14 @@ example:
 ```json
 //-------- Pandoc Option Configuration --------
 
-// pandoc .pdf output option template that you would like to use
-"pandoc.pdfOptString": "",
 
 // pandoc .docx output option template that you would like to use
-"pandoc.docxOptString": "",
+"pandoc.docxOptString": ""
 
-// pandoc .html output option template that you would like to use
-"pandoc.htmlOptString": ""
 ```
 
 * if necessary to set options for each output format.
-  * default: `$ pandoc inFile.md -o outFile.{pdf|word|html}`
+  * default: `$ pandoc inFile.md -o outFile.{word}`
 
 ## Example: Setting for Japanese document
 
