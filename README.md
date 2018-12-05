@@ -1,8 +1,9 @@
 # 4조 Project
 <H3>1. 프로젝트 이름</H3>
 - <H5>Visual Studio Code를 이용한 Markdown 편집기</H5>
-<center>
-![Alt Text](https://user-images.githubusercontent.com/45596085/49505684-a37b2a00-f8bf-11e8-96cb-032df145166d.PNG)
+<center> 
+![Alt Text]
+(https://user-images.githubusercontent.com/45596085/49505684-a37b2a00-f8bf-11e8-96cb-032df145166d.PNG)
 </center>
 
 ## <H3>2. 팀멤버 및 각 역할</H3>
@@ -16,6 +17,7 @@
 ## <H3>3. 개발 동기 및 과정</H3>
 
 ## <H3>4. 프로젝트 내용</H3>
+
 ### <H4>기능 설명</H4>
 
     1.Preview
@@ -31,7 +33,6 @@
     4.문법 간소화
     -기존 Markdown의 문법을 간소화 시킴으로써 Markdown의 문법을 몰라도 최소한 학습으로 사용 가능
     
-
 ### <H4>기대 효과</H4>
 
     1. Markdown 작성에 대한 실시간 동기화를 통해 개발자의 Markdown사용 편리함을 극대화
@@ -41,8 +42,7 @@
     3. Mac OS의 Markdown 편집기 유료화에 대한 문제점 해소
     
     4. Preview를 보기 위해 Github에 접속할 필요가 없어서 별도의 네트워크 연결이 없이도 작성 후 문서화 가능 
-
-
+    
 ## <H3>5. 실행 예시
 1. preview를 통해 번호매기기, 테이블생성하기, 사진 추가하기
 ![Alt Text](https://user-images.githubusercontent.com/45034295/49389212-1625c180-f769-11e8-9e55-56cff083089d.gif)
