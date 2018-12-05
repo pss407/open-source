@@ -22,11 +22,11 @@
     1. Preview기능
     - git에서 Markdwon작성시 Preview 창을 보고 다시 Write 창을 봐야하는 불편함이 존재하며, commit시에
       실제 git에 나타나는 형식이 다르게 표현되는 불편함이 존재한다.
-      ![Alt Text](https://user-images.githubusercontent.com/45596085/49508068-2783e080-f8c5-11e8-9e56-30fb8a2b4245.PNG)
+![Alt Text](https://user-images.githubusercontent.com/45596085/49508068-2783e080-f8c5-11e8-9e56-30fb8a2b4245.PNG)
       
     2. Markdown문법의 어려움
     - Markdown을 사용하다 보면 image, video삽입 등 문법의 어려움이 존재하여 구글을 통해 찾아야하는 불편함이 존재한다.
-      ![Alt Text](https://user-images.githubusercontent.com/45596085/49508159-5d28c980-f8c5-11e8-98c5-0e6dde5a4fb9.PNG)
+![Alt Text](https://user-images.githubusercontent.com/45596085/49508159-5d28c980-f8c5-11e8-98c5-0e6dde5a4fb9.PNG)
 
 ### <H4>기능 설명</H4>
 
