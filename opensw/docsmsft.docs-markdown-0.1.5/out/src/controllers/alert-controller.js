@@ -29,11 +29,11 @@ function insertAlert() {
             return;
         }
         const alertTypes = [
-            "Note – Information the user should notice even if skimming",
-            "Tip - Optional information to help a user be more successful",
-            "Important – Essential information required for user success",
-            "Caution - Negative potential consequences of an action",
-            "Warning – Dangerous certain consequences of an action",
+            "Note – 스킵 시 사용자가 가져서는 안 되는 정보",
+            "Tip - 사용자의 성공에 도움이 되는 선택적 정보",
+            "Important – 사용자 성공을 위해 필요한 필수 정보",
+            "Caution - 조치 시 부정적인 잠재적 결과",
+            "Warning – 조치 시 위험한 특정 결과",
         ];
         vscode.window.showQuickPick(alertTypes).then((qpSelection) => {
             if (!qpSelection) {

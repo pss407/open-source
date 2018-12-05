@@ -22,61 +22,61 @@ function quickPickMenuCommand() {
 }
 exports.quickPickMenuCommand = quickPickMenuCommand;
 function markdownQuickPick() {
-    const opts = { placeHolder: "Which Markdown command would you like to run?" };
+    const opts = { placeHolder: "어떤 기능을 돌리시고 싶으십니까?" };
     const items = [];
     if (common_1.checkExtension("docsmsft.docs-preview")) {
         items.push({
             description: "",
-            label: "$(browser) Preview",
+            label: "$(browser) 미리보기",
         });
     }
     items.push({
         description: "",
-        label: "$(pencil) Bold",
+        label: "$(pencil) 굵게쓰기",
     }, {
         description: "",
-        label: "$(info) Italic",
+        label: "$(info) 기울임체",
     }, {
         description: "",
-        label: "$(code) Code",
+        label: "$(code) 블록화",
     }, {
         description: "Insert note, tip, important, caution, or warning",
-        label: "$(alert) Alert",
+        label: "$(alert) 알림기능",
     }, {
         description: "",
-        label: "$(list-ordered) Numbered list",
+        label: "$(list-ordered) 번호 목록",
     }, {
         description: "",
-        label: "$(list-unordered) Bulleted list",
+        label: "$(list-unordered) 점 목록",
     }, {
         description: "",
-        label: "$(diff-added) Table",
+        label: "$(diff-added) 테이블",
     }, {
         description: "",
-        label: "$(file-symlink-directory) Link to file in repo",
+        label: "$(file-symlink-directory) 저장소의 파일 연결",
     }, {
         description: "",
-        label: "$(globe) Link to web page",
+        label: "$(globe) 웹페이지 연결",
     }, {
         description: "",
-        label: "$(link) Link to heading",
+        label: "$(link) 헤딩과 연결",
     }, {
         description: "",
-        label: "$(file-media) Image",
+        label: "$(file-media) 이미지 삽입",
     }, {
         description: "",
-        label: "$(clippy) Include",
+        label: "$(clippy) 파일 포함시키기",
     }, {
         description: "",
-        label: "$(file-code) Snippets",
+        label: "$(file-code) 스니펫",
     }, {
         description: "",
-        label: "$(device-camera-video) Video",
+        label: "$(device-camera-video) 비디오 삽입",
     });
     if (common_1.checkExtension("docsmsft.docs-article-templates")) {
         items.push({
             description: "",
-            label: "$(diff) Template",
+            label: "$(diff) 작성가능한 마크다운 불러오기",
         });
     }
     vscode.window.showQuickPick(items, opts).then((selection) => {
@@ -90,52 +90,52 @@ function markdownQuickPick() {
         const convertLabelToLowerCase = selection.label.toLowerCase();
         const selectionWithoutIcon = convertLabelToLowerCase.split(")")[1].trim();
         switch (selectionWithoutIcon) {
-            case "bold":
+            case "굵게쓰기":
                 bold_controller_1.formatBold();
                 break;
-            case "italic":
+            case "기울임체":
                 italic_controller_1.formatItalic();
                 break;
-            case "code":
+            case "블록화":
                 code_controller_1.formatCode();
                 break;
-            case "alert":
+            case "알림기능":
                 alert_controller_1.insertAlert();
                 break;
-            case "numbered list":
+            case "번호 목록":
                 list_controller_1.insertNumberedList();
                 break;
-            case "bulleted list":
+            case "점 목록":
                 list_controller_1.insertBulletedList();
                 break;
-            case "table":
+            case "테이블":
                 table_controller_1.insertTable();
                 break;
-            case "link to file in repo":
+            case "저장소의 파일 연결":
                 media_controller_1.Insert(false);
                 break;
-            case "link to web page":
+            case "웹페이지 연결":
                 media_controller_1.insertURL();
                 break;
-            case "link to heading":
+            case "헤딩과 연결":
                 media_controller_1.selectLinkType();
                 break;
-            case "image":
+            case "이미지 삽입":
                 media_controller_1.insertImage();
                 break;
-            case "include":
+            case "파일 포함시키기":
                 include_controller_1.insertInclude();
                 break;
-            case "snippets":
+            case "스니펫":
                 snippet_controller_1.insertSnippet();
                 break;
-            case "video":
+            case "비디오 삽입":
                 media_controller_1.insertVideo();
                 break;
-            case "preview":
+            case "미리보기":
                 preview_controller_1.previewTopic();
                 break;
-            case "template":
+            case "작성가능한 마크다운 불러오기":
                 template_controller_1.applyTemplate();
                 break;
             default:
