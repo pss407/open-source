@@ -148,9 +148,9 @@
     
 ![Alt Text](https://user-images.githubusercontent.com/45596085/49508577-69615680-f8c6-11e8-9f52-b238579ffa16.PNG)
 
-    2. dfinke/vscode-pandoc 기존 오픈소스 사용시 에러 발생 및 원인 제시
+    2. dfinke/vscode-pandoc 기존 오픈소스 사용시 pdf 에러 발생 및 원인 제시
     
-![Alt Text](https://user-images.githubusercontent.com/45596085/49525731-bc9cce80-f8f1-11e8-95cb-2f81a43f860e.PNG)
+![Alt Text](https://user-images.githubusercontent.com/45596085/49527095-8b71cd80-f8f4-11e8-813b-14c72e3a045d.PNG)
 
     3. shd101wyy/vscode-markdown-preview-enhanced 기존 오픈소스에 DOCS기능 추가 제시
 
