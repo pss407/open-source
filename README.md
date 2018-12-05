@@ -150,7 +150,7 @@
 
     2. dfinke/vscode-pandoc 기존 오픈소스 사용시 에러 발생 및 원인 제시
     
-![Alt Text](https://user-images.githubusercontent.com/45596085/49508719-c52bdf80-f8c6-11e8-92f3-5e72567accdd.PNG)
+![Alt Text](https://user-images.githubusercontent.com/45596085/49525731-bc9cce80-f8f1-11e8-95cb-2f81a43f860e.PNG)
 
     3. shd101wyy/vscode-markdown-preview-enhanced 기존 오픈소스에 DOCS기능 추가 제시
 
