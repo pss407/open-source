@@ -11,18 +11,12 @@ function setStatusBarText(what, docType) {
 function getPandocOptions(quickPickLabel) {
     var pandocOptions;
     switch (quickPickLabel) {
-        case 'pdf':
-            pandocOptions = vscode.workspace.getConfiguration('pandoc').get('pdfOptString');
-            console.log('pdocOptstring = ' + pandocOptions);
-            break;
+    
         case 'docx':
             pandocOptions = vscode.workspace.getConfiguration('pandoc').get('docxOptString');
             console.log('pdocOptstring = ' + pandocOptions);
             break;
-        case 'html':
-            pandocOptions = vscode.workspace.getConfiguration('pandoc').get('htmlOptString');
-            console.log('pdocOptstring = ' + pandocOptions);
-            break;
+    
     }
     return pandocOptions;
 }
@@ -35,9 +29,7 @@ function activate(context) {
         var fileName = path.basename(fullName);
         var fileNameOnly = path.parse(fileName).name;
         var items = [];
-        items.push({ label: 'pdf', description: 'Render as pdf document' });
         items.push({ label: 'docx', description: 'Render as word document' });
-        items.push({ label: 'html', description: 'Render as html document' });
         vscode.window.showQuickPick(items).then(function (qpSelection) {
             if (!qpSelection) {
                 return;
