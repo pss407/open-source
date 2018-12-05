@@ -3,7 +3,7 @@
 - <H5>Visual Studio Code를 이용한 Markdown 편집기</H5>
 ![Alt Text](https://i.imgur.com/9gqNE4U.png)
 
-## <H3>2. 팀멤버</H3>
+## <H3>2. 팀멤버 및 각 역할</H3>
 - <H5>김창희, 박승세, 서동훈, 정소희</H5>
 
 ## <H3>3. 개발 동기 및 과정</H3>
@@ -38,6 +38,7 @@
 - 가장 표준화된 markdown 문법 확보 후 tutorial 서버지원
 - H 및 #에 따른 숫자 크기 변환을 자율조절 가능하게 지원
 - Visual Studio Code로 작성한 MarkDown을 pdf형식으로 저장 지원
+
 
 ## LICENSE
 - MIT
