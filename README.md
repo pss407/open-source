@@ -20,8 +20,8 @@
 ### <H4>기능 설명</H4>
 
     1.Preview
-    -Vscode에서 현재 자신이 작성하고 있는 Markdown의 변경 내용을 별도의 처리 없이
-     Preview를 통해 실시간으로 확인 가능
+    -Vscode에서 현재 자신이 작성하고 있는 Markdown의 변경 내용을 별도의 처리 없이 Preview를 통해 
+     실시간으로 확인 가능
      
     -Markdown preview 지원으로 github와 동일하게 작동하여 편리하게 사용 가능
 
