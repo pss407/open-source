@@ -27,7 +27,7 @@
 
     2. Markdown문법의 어려움
     - Markdown을 사용하다 보면 image, video삽입 등 문법의 어려움이 존재하여 구글을 통해 찾아야하는 
-      불편함이 존재한다.
+      불편함이 존재한다.ㅂ
     
 ![Alt Text](https://user-images.githubusercontent.com/45596085/49508159-5d28c980-f8c5-11e8-98c5-0e6dde5a4fb9.PNG)
 
