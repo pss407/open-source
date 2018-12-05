@@ -1,10 +1,9 @@
 # 4조 Project
 <H3>1. 프로젝트 이름</H3>
 - <H5>Visual Studio Code를 이용한 Markdown 편집기</H5>
-<center> 
-![Alt Text]
-(https://user-images.githubusercontent.com/45596085/49505684-a37b2a00-f8bf-11e8-96cb-032df145166d.PNG)
-</center>
+
+![Alt Text](https://user-images.githubusercontent.com/45596085/49505684-a37b2a00-f8bf-11e8-96cb-032df145166d.PNG)
+
 
 ## <H3>2. 팀멤버 및 각 역할</H3>
 |이름  |역할  |
@@ -21,14 +20,17 @@
 ### <H4>기능 설명</H4>
 
     1.Preview
-    -Vscode에서 현재 자신이 작성하고 있는 Markdown의 변경 내용을 별도의 처리 없이 Preview를 통해 실시간으로 확인 가능
+    -Vscode에서 현재 자신이 작성하고 있는 Markdown의 변경 내용을 별도의 처리 없이
+     Preview를 통해 실시간으로 확인 가능
+     
     -Markdown preview 지원으로 github와 동일하게 작동하여 편리하게 사용 가능
 
     2.Word 기능 추가
     -Word의 글꼴 편집, table 삽입 등의 기능 추가로 문서의 스타일을 편집하는 기능을 지원
 
     3.기능 설명 한글화
-    -기존의 영어로 되어있던 함수 설명, 기능 설명 등을 한글화해 평소 영어 해석에 어려움을 느꼈던 사용자도 손쉽게 기능 이해
+    -기존의 영어로 되어있던 함수 설명, 기능 설명 등을 한글화하여,
+     평소 영어 해석에 어려움을 느꼈던 사용자도 손쉽게 기능 이해
     
     4.문법 간소화
     -기존 Markdown의 문법을 간소화 시킴으로써 Markdown의 문법을 몰라도 최소한 학습으로 사용 가능
