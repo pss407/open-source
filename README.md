@@ -67,10 +67,10 @@
 
     1. docs기능 사용법
     - Docs Markdown에 접그한기 위해 type `ALT+M` 입력. 
+    
     - 원하는 기능을 선택하기 위해 클릭하거나 위쪽/아래쪽 화살표를 사용하여 필터링을 시작한 다음,
       메뉴에서 원하는 기능이 강조 표시되면 'ENTER'를 누르십시오.
-    - 제공 되는 기능:
-
+    - DOCS 오픈소스 제공되는 기능은 아래와 같습니다.
 |Function     |Command             |Description           |
 |-------------|--------------------|----------------------|
 |굵게쓰기         |`formatBold`        |Formats text **bold**.|
@@ -86,6 +86,13 @@
 |스니펫      |`insertSnippet`   |Find a code snippet in the repo to embed in the current file.|
 |비디오 삽입        |`insertVideo`     |Add an embedded video.|
 |미리보기      |`previewTopic`    |Preview the active topic in a side-by-side window using the DocFX extension.  If the DocFX extension is not installed or is installed but disabled, the topic will not render.
+
+
+    2. Preview기능 사용법
+    - 파일 형식 .md로 지정
+    
+    - 다음 그림 파일에 표시되는 아이콘 클릭
+![Alt Text](https://user-images.githubusercontent.com/45596085/49510480-b4ca3380-f8cb-11e8-817c-06be42bf5ddb.PNG)
     
 ### <H4>오픈소스 사용시 팁</H4>
 
