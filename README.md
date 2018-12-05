@@ -94,6 +94,11 @@
     - 다음 그림 파일에 표시되는 아이콘 클릭
 ![Alt Text](https://user-images.githubusercontent.com/45596085/49510480-b4ca3380-f8cb-11e8-817c-06be42bf5ddb.PNG)
     
+    3. Word기능 저장 사용법
+        1.마크다운 파일이 열려있어야 하며, 기능을 돌리는 방법을 아래 두가지가 존재합니다.
+        2.`F1` 윈도우에서 입력(`shift+cmd+P` Mac에서 입력), `pandoc`입력 후 + `Enter'
+        3. 또는 -`ctrl+K` then `P` 입력(맥에서는 `cmd+K` 입력 후 `P` 입력)
+
 ### <H4>오픈소스 사용시 팁</H4>
 
 > The <kbd>cmd</kbd> key for _Windows_ is <kbd>ctrl</kbd>.
@@ -130,6 +135,7 @@
 ## <H3>6. 사용되는 Github 오픈소스 SW 목록</H3>
 - Microsoft/vscode-docs-authoring: https://github.com/Microsoft/vscode-docs-authoring
 - shd101wyy/vscode-markdown-preview-enhanced: https://github.com/shd101wyy/vscode-markdown-preview-enhanced
+- dfinke/vscode-pandoc: https://github.com/dfinke/vscode-pandoc
 
 ## <H3>7. 이 작업 이후, 추가적으로 진행되면 좋을 작업들</H3>
 - android, ios 앱 
