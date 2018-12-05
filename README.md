@@ -47,8 +47,25 @@
     
     3. Mac OS의 Markdown 편집기 유료화에 대한 문제점 해소
     
-    4. Preview를 보기 위해 Github에 접속할 필요가 없어서 별도의 네트워크 연결이 없이도 작성 후 문서화 가능 
+    4. Preview를 보기 위해 Github에 접속할 필요가 없어서 별도의 네트워크 연결이 없이도 작성 후 문서화 가능
     
+### <H4>오픈소스 사용시 팁</H4>
+
+    ## Keybindings
+
+> The <kbd>cmd</kbd> key for _Windows_ is <kbd>ctrl</kbd>.
+
+| Shortcuts                                   | Functionality              |
+| ------------------------------------------- | -------------------------- |
+| <kbd>cmd-k v</kbd>                          | Open preview               |
+| <kbd>ctrl-shift-s</kbd>                     | Sync preview / Sync source |
+| <kbd>shift-enter</kbd>                      | Run Code Chunk             |
+| <kbd>ctrl-shift-enter</kbd>                 | Run all Code Chunks        |
+| <kbd>cmd-=</kbd> or <kbd>cmd-shift-=</kbd>  | Preview zoom in            |
+| <kbd>cmd--</kbd> or <kbd>cmd-shift-\_</kbd> | Preview zoom out           |
+| <kbd>cmd-0</kbd>                            | Preview reset zoom         |
+| <kbd>esc</kbd>                              | Toggle sidebar TOC         |
+
 ## <H3>5. 실행 예시
 1. preview를 통해 번호매기기, 테이블생성하기, 사진 추가하기
 ![Alt Text](https://user-images.githubusercontent.com/45034295/49389212-1625c180-f769-11e8-9e55-56cff083089d.gif)
