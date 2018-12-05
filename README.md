@@ -78,6 +78,20 @@
 | <kbd>cmd-0</kbd>                            | Preview reset zoom         |
 | <kbd>esc</kbd>                              | Toggle sidebar TOC         |
 
+### <H4>기존 오픈소스에 issue 제안</H4>
+    
+    1. Microsoft/vscode-docs-authoring 기존 오프소스 에러에 pont의 크기 조절 기능 제시
+    
+![Alt Text](https://user-images.githubusercontent.com/45596085/49508577-69615680-f8c6-11e8-9f52-b238579ffa16.PNG)
+
+    2. dfinke/vscode-pandoc 기존 오픈소스 사용시 에러 발생 및 원인 제시
+    
+![Alt Text](https://user-images.githubusercontent.com/45596085/49508719-c52bdf80-f8c6-11e8-92f3-5e72567accdd.PNG)
+
+    3. shd101wyy/vscode-markdown-preview-enhanced 기존 오픈소스에 DOCS기능 추가 제시
+
+![Alt Text](https://user-images.githubusercontent.com/45596085/49508835-15a33d00-f8c7-11e8-9ab9-93cc3a0521a1.PNG)
+
 ## <H3>5. 실행 예시
 1. preview를 통해 번호매기기, 테이블생성하기, 사진 추가하기
 ![Alt Text](https://user-images.githubusercontent.com/45034295/49389212-1625c180-f769-11e8-9e55-56cff083089d.gif)
