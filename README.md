@@ -44,7 +44,6 @@
 - H 및 #에 따른 숫자 크기 변환을 자율조절 가능하게 지원
 - Visual Studio Code로 작성한 MarkDown을 pdf형식으로 저장 지원
 
-
 ## LICENSE
 - MIT
 - University of Illinois/NCSA Open Source License
