@@ -10,8 +10,8 @@
 |---------|---------|
 |김창희   |기존 오픈소스 한글화 작업 및 README 파일 제작|
 |박승세   |         |
-|정소희   |         |
-|서동훈   |         |
+|정소희   |아이디어 제공, 자료조사, ppt및 README 파일 제작|
+|서동훈   |아이디어 제공, 자료조사, README 파일 제작 
 
 ## <H3>3. 개발 동기 및 과정</H3>
 
@@ -27,7 +27,7 @@
 
     2. Markdown문법의 어려움
     - Markdown을 사용하다 보면 image, video삽입 등 문법의 어려움이 존재하여 구글을 통해 찾아야하는 
-      불편함이 존재한다.ㅂ
+      불편함이 존재한다.
     
 ![Alt Text](https://user-images.githubusercontent.com/45596085/49508159-5d28c980-f8c5-11e8-98c5-0e6dde5a4fb9.PNG)
 
@@ -49,8 +49,8 @@
     4. 문법 간소화
     - 기존 Markdown의 문법을 간소화 시킴으로써 Markdown의 문법을 몰라도 최소한 학습으로 사용 가능
     
-    5. PDF,Word 저장기능
-    - 작성한 Markdown을 Preview에서 보여지는 그대로 간편하게 PDF, 및 Word로 저장 가능
+    5. Word 저장기능
+    - 작성한 Markdown을 Preview에서 보여지는 그대로 간편하게 Word로 저장 가능
     
 ### <H4>기대 효과</H4>
 
