@@ -51,8 +51,6 @@
     
 ### <H4>오픈소스 사용시 팁</H4>
 
-    ## Keybindings
-
 > The <kbd>cmd</kbd> key for _Windows_ is <kbd>ctrl</kbd>.
 
 | Shortcuts                                   | Functionality              |
