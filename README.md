@@ -165,7 +165,8 @@
 2. docx 파일로 변환
 <img src = "https://i.imgur.com/nXCgSs3.mp4">
 
-### <H4>-사용하는 소프트웨어 개발자
+### <H4>이 오픈소스를 사용하고자 하는 SW개발자에 도움이 되는 것
+        
 
 ## <H3>5. 사용되는 Github 오픈소스 SW 목록</H3>
 - Microsoft/vscode-docs-authoring: https://github.com/Microsoft/vscode-docs-authoring
