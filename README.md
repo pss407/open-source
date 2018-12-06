@@ -77,7 +77,7 @@
       사용자도 손쉽게 기능 이해
     
 4. 문법 간소화
-    - Word를 통해 기존 Markdown의 문법을 간소화 시킴으로써 Markdown의 문법을 몰라도 최소한 학습으로 사용 가능
+    - Word를 통해 기존 Markdown의 문법을 간소화 시킴으로써 Markdown의 문법을 몰라도 최소한의 학습으로 사용 가능
     
 5. Word 저장기능
     - 작성한 Markdown을 Preview에서 보여지는 그대로 간편하게 Word로 저장 가능
@@ -89,7 +89,7 @@
 2. Word 기능을 이용해 Markdown 입문 개발자들이 겪는 Markdown 문법의 어려움을 최소화, 간편하게 문서의 스타일 
    편집 가능
     
-3. Mac OS의 Markdown 편집기 유료화에 대한 문제점 해소
+3. Mac OS에서 Markdown 편집기들의 유료화에 대한 문제점 해소
     
 4. Preview를 보기 위해 Github에 접속할 필요가 없어서 별도의 네트워크 연결이 없이도 작성 후 문서화 가능
     
