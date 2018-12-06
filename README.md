@@ -165,8 +165,14 @@
 2. docx 파일로 변환
 <img src = "https://i.imgur.com/nXCgSs3.mp4">
 
-### <H4>이 오픈소스를 사용하고자 하는 SW개발자에 도움이 되는 것
+### <H4>-이 오픈소스를 사용하고자 하는 SW개발자에 도움이 되는 것
+    1. Markdown 작성에 대한 실시간 동기화를 제공하기 때문에 편리하게 Markdown을 사용 할 수 있다.
         
+    2. Markdown 문법의 어려움을 최소화해서 입문하기 부담이 없고, Word 기능을 추가해 익숙한 환경속에서 문서의 스타일 편집할 수 있다.
+    
+    3. Mac OS에서 많은 기능을 가진  Markdown 편집기는 유료가 대부분인데, 이 편집기를 사용하면 무료로 많은 기능을 사용할 수 있다.
+    
+    4. Preview를 오프라인 상황에서도 제공하므로 별도의 네트워크 연결이 없이도 코드 작성이 가능하고 더불어 문서화 가능하다.
 
 ## <H3>5. 사용되는 Github 오픈소스 SW 목록</H3>
 - Microsoft/vscode-docs-authoring: https://github.com/Microsoft/vscode-docs-authoring
