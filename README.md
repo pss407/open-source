@@ -76,7 +76,7 @@
       사용자도 손쉽게 기능 이해
     
     4. 문법 간소화
-    - 기존 Markdown의 문법을 간소화 시킴으로써 Markdown의 문법을 몰라도 최소한 학습으로 사용 가능
+    -  Word를 통해 기존 Markdown의 문법을 간소화 시킴으로써 Markdown의 문법을 몰라도 최소한 학습으로 사용 가능
     
     5. Word 저장기능
     - 작성한 Markdown을 Preview에서 보여지는 그대로 간편하게 Word로 저장 가능
