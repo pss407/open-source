@@ -35,16 +35,16 @@
       아이디어를 생각했다.<p/>
   
     - <p>Vscode에서 Preview 동기화를 지원하고 내부 창에서 실시간으로 확인가능한 Markdown 오픈소스가 있는지
-      조사하였다. -> vscode-markdown-preview-enhanced<p/>
+      조사했다. -> vscode-markdown-preview-enhanced<p/>
   
     - <p>Vscode에서 Markdown의 문법을 간소화할 수 있고 문서 스타일을 쉽게 편집할 수 있는 가장 적합한 오픈소스를
-      조사하였다. -> vscode-docs-authoring<p/>
+      조사했다. -> vscode-docs-authoring<p/>
   
-    - <p>Vscode에서 Markdown으로 작업한 것을 바로 word형식으로 저장해주는 오픈소스를 검색하였습니다.
+    - <p>Vscode에서 Markdown으로 작업한 것을 바로 word형식으로 저장해주는 오픈소스를 검색했다.
       -> vscode-pandoc<p/>
   
     - 위의 오픈소스들을 가지고 사용시 간략한 설명문 및 사용방법을 한글화하기위해 코드를 개선하여 
-      사용자가 편리하게 이용하게끔 수정하였습니다.
+      사용자가 편리하게 이용하게끔 수정했다.
 
 ## <H3>4. 프로젝트 내용</H3>
 
