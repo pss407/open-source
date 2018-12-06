@@ -14,36 +14,37 @@
 |서동훈   |아이디어 제공, 자료조사, README 파일 제작 
 
 ## <H3>3. 개발 동기 및 과정</H3>
+
 - 개발동기
+
+    - 오픈소스 프로젝트를 진행하면서 git에서의 Markdown을 사용해보았다.
+   
+    - git에서의 Markdown의 경우 문법에 대한 도움 기능이 없기때문에 사용하고자하는 문법을 검색엔진을 통해 알아봐야했고, 
+      또 git에서는 지원하지 않는 문법들이 존재하여 그것을 대체할 다른 문법을 찾아보는 등 다양한 어려움이 있었다.
   
-  1. 오픈소스 프로젝트를 진행하면서 git에서의 Markdown을 사용해보았다.
+    - git의 Markdown에서 지금까지 작성한 결과물을 확인하기 위해서는 작업중 일일히 Commit을 하거나 미리보기 기능 활용해야 한다.<br>
+      하지만 미리보기 기능을 활용하기 위해서는 Preview 창에 별도로 들어가야 했다.<br> 
+      따라서 이 prewiew 기능을 사용하는 것은 번거로웠고 현재 작업 진행 상태를 실시간으로 보면서 수정이 불가능했다.<br> 
+      이런 환경에서 Markdown 작업은 매우 답답하고 불편했다.
   
-  2. git에서의 Markdown의 경우 문법에 대한 도움 기능이 없기때문에 사용하고자하는 문법을 검색엔진을 통해 알아봐야했고, 
-     또 git에서는 지원하지 않는 문법들이 존재하여 그것을 대체할 다른 문법을 찾아보는 등 다양한 어려움이 있었다.
-  
-  3. git의 Markdown에서 지금까지 작성한 결과물을 확인하기 위해서는 작업중 일일히 Commit을 하거나 미리보기 기능 활용해야 한다.<br>
-     하지만 미리보기 기능을 활용하기 위해서는 Preview 창에 별도로 들어가야 했다.<br> 
-     따라서 이 prewiew 기능을 사용하는 것은 번거로웠고 현재 작업 진행 상태를 실시간으로 보면서 수정이 불가능했다.<br> 
-     이런 환경에서 Markdown 작업은 매우 답답하고 불편했다.
-  
-  4. Markdown의 편리함을 많은 개발자들에게 제공하고자 이 오픈소스를 개발하게 되었다.
+    - Markdown의 편리함을 많은 개발자들에게 제공하고자 이 오픈소스를 개발하게 되었다.
 
 - 개발과정
 
-  1. Vscode에서는 편집기의 시각화가 매우 편하기 때문에 Vscode에서 Markdown을 사용할 수 있는지에 대한
-     아이디어를 생각했다.
+    - Vscode에서는 편집기의 시각화가 매우 편하기 때문에 Vscode에서 Markdown을 사용할 수 있는지에 대한
+      아이디어를 생각했다.
   
-  2. Vscode에서 Preview 동기화를 지원하고 내부 창에서 실시간으로 확인가능한 Markdown 오픈소스가 있는지
-     조사하였다. -> vscode-markdown-preview-enhanced
+    - Vscode에서 Preview 동기화를 지원하고 내부 창에서 실시간으로 확인가능한 Markdown 오픈소스가 있는지
+      조사하였다. -> vscode-markdown-preview-enhanced
   
-  3. Vscode에서 Markdown의 문법을 간소화할 수 있고 문서 스타일을 쉽게 편집할 수 있는 가장 적합한 오픈소스를
-     조사하였다. -> vscode-docs-authoring
+    - Vscode에서 Markdown의 문법을 간소화할 수 있고 문서 스타일을 쉽게 편집할 수 있는 가장 적합한 오픈소스를
+      조사하였다. -> vscode-docs-authoring
   
-  4. Vscode에서 Markdown으로 작업한 것을 바로 word형식으로 저장해주는 오픈소스를 검색하였습니다.
-    -> vscode-pandoc
+    - Vscode에서 Markdown으로 작업한 것을 바로 word형식으로 저장해주는 오픈소스를 검색하였습니다.
+      -> vscode-pandoc
   
-  5. 위의 오픈소스들을 가지고 사용시 간략한 설명문 및 사용방법을 한글화하기위해 코드를 개선하여 
-     사용자가 편리하게 이용하게끔 수정하였습니다.
+    - 위의 오픈소스들을 가지고 사용시 간략한 설명문 및 사용방법을 한글화하기위해 코드를 개선하여 
+      사용자가 편리하게 이용하게끔 수정하였습니다.
 
 ## <H3>4. 프로젝트 내용</H3>
 
@@ -66,7 +67,6 @@
 1. Preview
     - Vscode에서 현재 자신이 작성하고 있는 Markdown의 변경 내용을 별도의 처리 없이 Preview를 통해 
       실시간으로 확인 가능
-     
     - Markdown preview 지원으로 github와 동일하게 작동하여 편리하게 사용 가능
 
 2. Word 기능 추가
@@ -84,23 +84,23 @@
     
 ### <H4>기대 효과</H4>
 
-    1. Markdown 작성에 대한 실시간 동기화를 통해 개발자의 Markdown사용 편리함을 극대화
+1. Markdown 작성에 대한 실시간 동기화를 통해 개발자의 Markdown사용 편리함을 극대화
     
-    2. Word 기능을 이용해 Markdown 입문 개발자들이 겪는 Markdown 문법의 어려움을 최소화, 간편하게 문서의 스타일 
-    편집 가능
+2. Word 기능을 이용해 Markdown 입문 개발자들이 겪는 Markdown 문법의 어려움을 최소화, 간편하게 문서의 스타일 
+   편집 가능
     
-    3. Mac OS의 Markdown 편집기 유료화에 대한 문제점 해소
+3. Mac OS의 Markdown 편집기 유료화에 대한 문제점 해소
     
-    4. Preview를 보기 위해 Github에 접속할 필요가 없어서 별도의 네트워크 연결이 없이도 작성 후 문서화 가능
+4. Preview를 보기 위해 Github에 접속할 필요가 없어서 별도의 네트워크 연결이 없이도 작성 후 문서화 가능
     
 ### <H4>오픈소스 사용하는 법</H5>
 
-    1. docs기능 사용법
+- docs기능 사용법
     - Docs Markdown에 접그한기 위해 type `ALT+M` 입력. 
-    
     - 원하는 기능을 선택하기 위해 클릭하거나 위쪽/아래쪽 화살표를 사용하여 필터링을 시작한 다음,
       메뉴에서 원하는 기능이 강조 표시되면 'ENTER'를 누르십시오.
     - DOCS 오픈소스 제공되는 기능은 아래와 같습니다.
+
 |Function     |Command             |Description           |
 |-------------|--------------------|----------------------|
 |굵게쓰기         |`formatBold`        |Formats text **bold**.|
@@ -117,17 +117,15 @@
 |비디오 삽입        |`insertVideo`     |Add an embedded video.|
 |미리보기      |`previewTopic`    |Preview the active topic in a side-by-side window using the DocFX extension.  If the DocFX extension is not installed or is installed but disabled, the topic will not render.
 
-
-    2. Preview기능 사용법
+- Preview기능 사용법
     - 파일 형식 .md로 지정
-    
     - 다음 그림 파일에 표시되는 아이콘 클릭
 ![Alt Text](https://user-images.githubusercontent.com/45596085/49510480-b4ca3380-f8cb-11e8-817c-06be42bf5ddb.PNG)
     
-    3. Word기능 저장 사용법
-        1.마크다운 파일이 열려있어야 하며, 기능을 돌리는 방법을 아래 두가지가 존재합니다.
-        2.`F1` 윈도우에서 입력(`shift+cmd+P` Mac에서 입력), `pandoc`입력 후 + `Enter'
-        3. 또는 -`ctrl+K` then `P` 입력(맥에서는 `cmd+K` 입력 후 `P` 입력)
+- Word기능 저장 사용법
+    1.마크다운 파일이 열려있어야 하며, 기능을 돌리는 방법을 아래 두가지가 존재합니다.
+    2.`F1` 윈도우에서 입력(`shift+cmd+P` Mac에서 입력), `pandoc`입력 후 + `Enter'
+    3. 또는 -`ctrl+K` then `P` 입력(맥에서는 `cmd+K` 입력 후 `P` 입력)
 
 ### <H4>오픈소스 사용시 팁</H4>
 
