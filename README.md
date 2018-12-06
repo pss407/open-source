@@ -156,19 +156,23 @@
 
 ![Alt Text](https://user-images.githubusercontent.com/45596085/49508835-15a33d00-f8c7-11e8-9ab9-93cc3a0521a1.PNG)
 
-## <H3>5. 실행 예시
+
+
+### <H4>실행 예시<H4>
 1. preview를 통해 번호매기기, 테이블생성하기, 사진 추가하기
 ![Alt Text](https://user-images.githubusercontent.com/45034295/49389212-1625c180-f769-11e8-9e55-56cff083089d.gif)
 
 2. docx 파일로 변환
 <img src = "https://i.imgur.com/nXCgSs3.mp4">
 
-## <H3>6. 사용되는 Github 오픈소스 SW 목록</H3>
+### <H4>-사용하는 소프트웨어 개발자
+
+## <H3>5. 사용되는 Github 오픈소스 SW 목록</H3>
 - Microsoft/vscode-docs-authoring: https://github.com/Microsoft/vscode-docs-authoring
 - shd101wyy/vscode-markdown-preview-enhanced: https://github.com/shd101wyy/vscode-markdown-preview-enhanced
 - dfinke/vscode-pandoc: https://github.com/dfinke/vscode-pandoc
 
-## <H3>7. 이 작업 이후, 추가적으로 진행되면 좋을 작업들</H3>
+## <H3>6. 이 작업 이후, 추가적으로 진행되면 좋을 작업들</H3>
 - android, ios 앱 
 - 가장 표준화된 markdown 문법 확보 후 tutorial 서버지원
 - H 및 #에 따른 숫자 크기 변환을 자율조절 가능하게 지원
