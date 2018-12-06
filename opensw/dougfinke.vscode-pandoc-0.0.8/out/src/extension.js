@@ -29,7 +29,7 @@ function activate(context) {
         var fileName = path.basename(fullName);
         var fileNameOnly = path.parse(fileName).name;
         var items = [];
-        items.push({ label: 'docx', description: 'Render as word document' });
+        items.push({ label: 'docx', description: 'Word 파일로 변환' });
         vscode.window.showQuickPick(items).then(function (qpSelection) {
             if (!qpSelection) {
                 return;
