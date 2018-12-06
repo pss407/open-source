@@ -84,8 +84,8 @@
 
     1. Markdown 작성에 대한 실시간 동기화를 통해 개발자의 Markdown사용 편리함을 극대화
     
-    2. Markdown 입문 개발자들이 겪는 Markdown 문법의 어려움을 최소화, Word 기능을 추가해 
-       간편하게 문서의 스타일 편집 가능
+    2. Word 기능을 이용해 Markdown 입문 개발자들이 겪는 Markdown 문법의 어려움을 최소화, 간편하게 문서의 스타일 
+    편집 가능
     
     3. Mac OS의 Markdown 편집기 유료화에 대한 문제점 해소
     
