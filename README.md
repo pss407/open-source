@@ -49,8 +49,8 @@
 ### <H4>기존 Markdown의 불편함</H4>
 
     1. Preview기능
-    - git의 Markdown 작업에서 미리보기 기능을 활용하려면 Preview 창에 들어가서 확인하고 다시 Write 창을 봐야하는 불편함이 존재하며, commit시에
-      실제 git에 나타나는 형식이 다르게 표현되는 불편함이 존재한다.
+    - git의 Markdown 작업에서 미리보기 기능을 활용하려면 Preview 창에 들어가서 확인하고 다시 Write 창을 봐야하는
+    불편함이 존재하며, commit시에 실제 git에 나타나는 형식이 다르게 표현되는 불편함이 존재한다.
       
 ![Alt Text](https://user-images.githubusercontent.com/45596085/49508068-2783e080-f8c5-11e8-9e56-30fb8a2b4245.PNG)
 
