@@ -159,7 +159,7 @@
 
 
 ### <H4>실행 예시<H4>
-1. preview를 통해 번호매기기, 테이블생성하기, 사진 추가하기
+1. preview를 통해 번호 매기기, 테이블 생성하기, 사진 추가하기
 ![Alt Text](https://user-images.githubusercontent.com/45034295/49389212-1625c180-f769-11e8-9e55-56cff083089d.gif)
 
 2. docx 파일로 변환
