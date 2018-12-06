@@ -2,8 +2,7 @@
 <H3>1. 프로젝트 이름</H3>
 - <H5>Visual Studio Code를 이용한 Markdown 편집기</H5>
 
-![Alt Text](https://user-images.githubusercontent.com/45596085/49505684-a37b2a00-f8bf-11e8-96cb-032df145166d.PNG)
-![Alt Text](https://i.imgur.com/9gqNE4U.png)
+![Alt Text](https://user-images.githubusercontent.com/43747079/49585711-7ce1ef80-f9a2-11e8-8308-ceeecb6cb277.png)
 
 
 ## <H3>2. 팀멤버 및 각 역할</H3>
