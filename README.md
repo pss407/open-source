@@ -200,7 +200,7 @@
 ## <H3>6. 이 작업 이후, 추가적으로 진행되면 좋을 작업들</H3>
 - android, ios 앱 
 - 가장 표준화된 markdown 문법 확보 후 tutorial 서버지원
-- H 및 #에 따른 숫자 크기 변환을 자율조절 가능하게 지원
+- H 및 # 에 따른 숫자 크기 변환을 자율조절 가능하게 지원
 - Visual Studio Code로 작성한 MarkDown을 pdf형식으로 저장 지원
 - 문서화된  파일 markdown 파일로 변환 (pandoc이 존재하나 문법을 제대로 읽지못함)
 
