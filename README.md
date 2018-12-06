@@ -55,8 +55,8 @@
 ![Alt Text](https://user-images.githubusercontent.com/45596085/49508068-2783e080-f8c5-11e8-9e56-30fb8a2b4245.PNG)
 
     2. Markdown문법의 어려움
-    - Markdown을 사용하다 보면 image, video삽입 등 문법의 어려움과 생소한 기능들이 존재하여 검색엔진을 통해 찾아야하는 
-      불편함이 존재한다.
+    - Markdown을 사용하다 보면 image, video삽입 등 문법의 어려움과 생소한 기능들이 존재하여 검색엔진을 통해 찾아야
+    하는 불편함이 존재한다.
     
 ![Alt Text](https://user-images.githubusercontent.com/45596085/49508159-5d28c980-f8c5-11e8-98c5-0e6dde5a4fb9.PNG)
 
