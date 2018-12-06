@@ -32,13 +32,14 @@
   1. Vscode에서는 편집기의 시각화가 매우 편하기 때문에 Vscode에서 Markdown을 사용할 수 있는지에 대한
      아이디어를 생각했다.
   
-  2. Vscode에서 Markdown의 Preview이 동기화되며 내부 창에서 실시간으로 확인가능한 오픈소스가 있는지
-     조사하였다.
+  2. Vscode에서 Preview 동기화를 지원하고 내부 창에서 실시간으로 확인가능한 Markdown 오픈소스가 있는지
+     조사하였다. -> vscode-markdown-preview-enhanced
   
-  3. Vscode에서 Markdown의 어법이 Word처럼 글 수정이 가능한지와 이에 현재 가장 적합한 오픈소스를
-     조사하였다.
+  3. Vscode에서 Markdown의 문법을 간소화할 수 있고 문서 스타일을 쉽게 편집할 수 있는 가장 적합한 오픈소스를
+     조사하였다. -> vscode-docs-authoring
   
-  4. Vscode에서 Markdown을 사용하고 이를 바로 word형식으로 저장해주는 오픈소스를 검색하였습니다.
+  4. Vscode에서 Markdown으로 작업한 것을 바로 word형식으로 저장해주는 오픈소스를 검색하였습니다.
+    -> vscode-pandoc
   
   5. 위의 오픈소스를 가지고 사용시 간략한 설명문 및 사용방법을 한글화로 코드를 개선하여 좀 더
      사용자가 편리하게 이용하게끔 수정하였습니다.
@@ -48,7 +49,7 @@
 ### <H4>기존 Markdown의 불편함</H4>
 
     1. Preview기능
-    - git에서 Markdown작성시 Preview 창을 보고 다시 Write 창을 봐야하는 불편함이 존재하며, commit시에
+    - git의 Markdown 작업에서 미리보기 기능을 활용하려면 Preview 창에 들어가서 확인하고 다시 Write 창을 봐야하는 불편함이 존재하며, commit시에
       실제 git에 나타나는 형식이 다르게 표현되는 불편함이 존재한다.
       
 ![Alt Text](https://user-images.githubusercontent.com/45596085/49508068-2783e080-f8c5-11e8-9e56-30fb8a2b4245.PNG)
