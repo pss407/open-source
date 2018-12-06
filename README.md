@@ -163,7 +163,7 @@
 ![Alt Text](https://user-images.githubusercontent.com/45034295/49389212-1625c180-f769-11e8-9e55-56cff083089d.gif)
 
 2. docx 파일로 변환
-<img src = "https://i.imgur.com/nXCgSs3.mp4">
+![Alt Text](https://user-images.githubusercontent.com/45596085/49588971-83289980-f9ab-11e8-8391-30e5ac292cec.PNG)
 
 ### <H4>이 오픈소스를 사용하고자 하는 SW개발자에 도움이 되는 것
     1. Markdown 작성에 대한 실시간 동기화를 제공하기 때문에 편리하게 Markdown을 사용 할 수 있다.
