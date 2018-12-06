@@ -48,7 +48,7 @@
 ### <H4>기존 Markdown의 불편함</H4>
 
     1. Preview기능
-    - git에서 Markdwon작성시 Preview 창을 보고 다시 Write 창을 봐야하는 불편함이 존재하며, commit시에
+    - git에서 Markdown작성시 Preview 창을 보고 다시 Write 창을 봐야하는 불편함이 존재하며, commit시에
       실제 git에 나타나는 형식이 다르게 표현되는 불편함이 존재한다.
       
 ![Alt Text](https://user-images.githubusercontent.com/45596085/49508068-2783e080-f8c5-11e8-9e56-30fb8a2b4245.PNG)
@@ -165,8 +165,11 @@
 2. docx 파일로 변환
 <img src = "https://i.imgur.com/nXCgSs3.mp4">
 
-### <H4>-이 오픈소스를 사용하고자 하는 SW개발자에 도움이 되는 것
+### <H4>이 오픈소스를 사용하고자 하는 SW개발자에 도움이 되는 것
     1. Markdown 작성에 대한 실시간 동기화를 제공하기 때문에 편리하게 Markdown을 사용 할 수 있다.
+        이전 Markdown은 preview를 지원하지 않기 때문에 자신이 작성하고 있는 Mardown code가 어떻게 보여지고 있는지 알 수 없어서 작업의 속도가 느리며,
+        계속되는 수정 작업에도 commit을 일일히 해서 확인해야했기 때문에 번거로움이 있었다. 하지만 이 편집기를 사용한다면, preview로 자신의 작성 결과물을 확인하면서
+        수정,보안할 수 있기 때문에 시간의 효율성과 사용자의 편리함이 증가한다.
         
     2. Markdown 문법의 어려움을 최소화해서 입문하기 부담이 없고, Word 기능을 추가해 익숙한 환경속에서 문서의 스타일 편집할 수 있다.
     
