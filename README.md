@@ -49,37 +49,37 @@
 
 ### <H4>기존 Markdown의 불편함</H4>
 
-    1. Preview기능
+1. Preview기능
     - git의 Markdown 작업에서 동기화된  미리보기 기능을 활용하려면 Preview 창에 들어가서 확인하고 
       다시 Write 창을 봐야하기 때문에, commit시에 실제 git에 나타나는 형식이 다르게 표현되는 불편함이 존재한다.
       
-![Alt Text](https://user-images.githubusercontent.com/45596085/49508068-2783e080-f8c5-11e8-9e56-30fb8a2b4245.PNG)
+        ![Alt Text](https://user-images.githubusercontent.com/45596085/49508068-2783e080-f8c5-11e8-9e56-30fb8a2b4245.PNG)
 
-    2. Markdown문법의 어려움
+2. Markdown문법의 어려움
     - Markdown을 사용하다 보면 image, video 삽입 등 문법의 어려움과 생소한 기능들이 존재하여 검색을 통해 알아야
       하는 불편함이 존재한다.
     
-![Alt Text](https://user-images.githubusercontent.com/45596085/49508159-5d28c980-f8c5-11e8-98c5-0e6dde5a4fb9.PNG)
+    ![Alt Text](https://user-images.githubusercontent.com/45596085/49508159-5d28c980-f8c5-11e8-98c5-0e6dde5a4fb9.PNG)
 
 ### <H4>기능 설명</H4>
 
-    1. Preview
+1. Preview
     - Vscode에서 현재 자신이 작성하고 있는 Markdown의 변경 내용을 별도의 처리 없이 Preview를 통해 
       실시간으로 확인 가능
      
     - Markdown preview 지원으로 github와 동일하게 작동하여 편리하게 사용 가능
 
-    2. Word 기능 추가
+2. Word 기능 추가
     - Word의 글꼴 편집, table 삽입 등의 기능 추가로 문서의 스타일을 편집하는 기능을 지원
 
-    3. 기능 설명 한글화
+3. 기능 설명 한글화
     - 기존의 영어로 되어있던 함수 설명, 기능 설명 등을 한글화하여, 평소 영어 해석에 어려움을 느꼈던 
       사용자도 손쉽게 기능 이해
     
-    4. 문법 간소화
+4. 문법 간소화
     -  Word를 통해 기존 Markdown의 문법을 간소화 시킴으로써 Markdown의 문법을 몰라도 최소한 학습으로 사용 가능
     
-    5. Word 저장기능
+5. Word 저장기능
     - 작성한 Markdown을 Preview에서 보여지는 그대로 간편하게 Word로 저장 가능
     
 ### <H4>기대 효과</H4>
