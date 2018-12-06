@@ -122,9 +122,9 @@
     - 다음 그림 파일에 표시되는 아이콘 클릭
 ![Alt Text](https://user-images.githubusercontent.com/45596085/49510480-b4ca3380-f8cb-11e8-817c-06be42bf5ddb.PNG)
     
-- Word기능 저장 사용법 <br>
-    1. 마크다운 파일이 열려있어야 하며, 기능을 돌리는 방법을 아래 두가지가 존재합니다. <br>
-    2. `F1` 윈도우에서 입력(`shift+cmd+P` Mac에서 입력), `pandoc`입력 후 + `Enter' <br>
+- Word기능 저장 사용법
+    1.마크다운 파일이 열려있어야 하며, 기능을 돌리는 방법을 아래 두가지가 존재합니다.
+    2.`F1` 윈도우에서 입력(`shift+cmd+P` Mac에서 입력), `pandoc`입력 후 + `Enter'
     3. 또는 -`ctrl+K` then `P` 입력(맥에서는 `cmd+K` 입력 후 `P` 입력)
 
 ### <H4>오픈소스 사용시 팁</H4>
@@ -163,7 +163,7 @@
 ![Alt Text](https://user-images.githubusercontent.com/45034295/49389212-1625c180-f769-11e8-9e55-56cff083089d.gif)
 
 2. docx 파일로 변환
-![Alt Text](https://user-images.githubusercontent.com/45596085/49588971-83289980-f9ab-11e8-8391-30e5ac292cec.PNG)
+![Alt Text](https://user-images.githubusercontent.com/45596085/49589117-ddc1f580-f9ab-11e8-8305-251d2c7cb7e7.gif)
 
 ### <H4>이 오픈소스를 사용하고자 하는 SW개발자에 도움이 되는 것
     1. Markdown 작성에 대한 실시간 동기화를 제공하기 때문에 편리하게 Markdown을 사용 할 수 있다.
