@@ -86,7 +86,7 @@
     - 하지만 예전엔 한 번 구매하는 방식에서 구독 방식으로 바뀜. 이미 구입한 사람들도 사용하려면 매달 돈을 내야해서 일부 사용자들의 반발이 있었음.
 
 4. <p>StackEdit<p/>
-![stackedit](https://user-images.githubusercontent.com/44769544/49662032-2520b280-fa8e-11e8-918b-4c5530a2761b.png)
+![stackedit](https://user-images.githubusercontent.com/44769544/49662428-23a3ba00-fa8f-11e8-9fd5-ba4287faae75.png)
     - 브라우저 기반으로 별도의 소프트웨어 설치 필요 없고 어디서든 접속 가능, 브라우저 로컬 스토리지에 저장 + 계정 연동 시 온라인에 저장 가능 (Google Drive 등), 다양한 배포 옵션 (Google Drive, Dropbox, Github, Wordpress, Blogger 등), 내부에 마커 형식으로 메모처럼 코멘트를 달 수 있음 (구글 계정 로그인 필요), KaTeX / 테이블 / UML Diagram
     - 하지만 오프라인 시 사용 제약, 온라인 스토리지 연동 안할 경우 데이터 손실 위험, 테마 변경 기능 없음
 
