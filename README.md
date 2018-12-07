@@ -72,6 +72,14 @@
 
 2. <p>Bear<p/>
 ![bear](https://user-images.githubusercontent.com/44769544/49657668-8abb7180-fa83-11e8-867a-b76123e46024.png)
+    - 다양한 테마와 깔끔한 레이아웃, 문서 간 링크 기능, 태그 및 아카이브 기능, 다양한 배포 옵션 지원, 앱과 자유로운 연동 (동기화)
+    - 하지만 애플 계열만 지원하며 폴더 미지원으로 다량의 문서 분류 불편
+
+3. <p>Byword 2<p/>
+![byword](https://user-images.githubusercontent.com/44769544/49660034-f18f5980-fa88-11e8-83e5-2d77b94b7a2c.png)
+    - 방해받지 않고 집중할 수 있는 간결한 디자인, 깔끔한 테마 2종 (Light, Dark), 다양한 배포 (Medium, WordPress, tumblr, Blogger, Evernote), iCloud Drive 지원
+    - 하지만 프리뷰 화면으로 전환이 불편하며 macOS 와 iOS 따로 구입 필요, 애플 계열만 지원, 유료 
+
 
 ### <H4>기능 설명</H4>
 
