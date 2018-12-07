@@ -70,6 +70,8 @@
       LaTeX / 테이블 / UML Diagram 지원, 포커스 모드 / 타자기 모드 가능.
     - 하지만 단점은 베타버전이라 버그가 존재하며, 베타기간만 무료라는 것이다. 결국 유료인 편집기.
 
+2. <p>Bear<p/>
+![bear](https://user-images.githubusercontent.com/44769544/49657668-8abb7180-fa83-11e8-867a-b76123e46024.png)
 
 ### <H4>기능 설명</H4>
 
