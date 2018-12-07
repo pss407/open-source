@@ -94,6 +94,8 @@
 4. Preview를 보기 위해 Github에 접속할 필요가 없어서 별도의 네트워크 연결이 없이도 작성 후 문서화 가능
     
 ### <H4>오픈소스 사용하는 법</H5>
+- <p>설치경로</p>
+  C:\Users\사용자계정아이디\ .vscode\extensions
 
 - docs기능 사용법
     - Docs Markdown에 접그한기 위해 type `ALT+M` 입력. 
