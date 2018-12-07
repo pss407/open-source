@@ -62,6 +62,18 @@
     
     ![Alt Text](https://user-images.githubusercontent.com/45596085/49508159-5d28c980-f8c5-11e8-98c5-0e6dde5a4fb9.PNG)
 
+### <H4>기존의 Markdown 편집기</H4>
+
+1. <p>Typora<p/>
+![typora2](https://user-images.githubusercontent.com/44769544/49655286-9c017f80-fa7d-11e8-873f-f19bd96b551e.png)
+    - 프리뷰 화면에서 수정이 가능함 (WYSIWYG 방식)
+    - 다양하고 깔끔한 테마와 레이아웃 / 테마 CSS 직접 수정 가능
+    - 멀티 플랫폼 지원
+    - 베타 기간 중 무료
+    - LaTeX / 테이블 / UML Diagram 지원
+    - 포커스 모드 / 타자기 모드
+
+
 ### <H4>기능 설명</H4>
 
 1. Preview
