@@ -90,6 +90,11 @@
     - 브라우저 기반으로 별도의 소프트웨어 설치 필요 없고 어디서든 접속 가능, 브라우저 로컬 스토리지에 저장 + 계정 연동 시 온라인에 저장 가능 (Google Drive 등), 다양한 배포 옵션 (Google Drive, Dropbox, Github, Wordpress, Blogger 등), 내부에 마커 형식으로 메모처럼 코멘트를 달 수 있음 (구글 계정 로그인 필요), KaTeX / 테이블 / UML Diagram
     - 하지만 오프라인 시 사용 제약, 온라인 스토리지 연동 안할 경우 데이터 손실 위험, 테마 변경 기능 없음
 
+5. <p>Inkdrop<p/>
+![inkdrop](https://user-images.githubusercontent.com/44769544/49662429-23a3ba00-fa8f-11e8-8547-22f7775b26aa.png)
+    - 다양한 플랫폼 지원, 노트북 형식으로 폴더 지원, 태그 + 4가지 상태 (Active, On Hold, Completed, Dropped)로 분류 가능, 자체 패키지 매니저 ipm 이 있어서 오픈소스 플러그인으로 확장 기능 설치 가능
+    - 하지만 속도가 비교적 느림, 디자인이나 UI가 비교적 떨어고 유료
+
 사용 소감
 ### <H4>기능 설명</H4>
 
