@@ -141,8 +141,8 @@
 |-------------|--------------------|----------------------|
 |굵게쓰기         |`formatBold`        |글자를  **굵게** 바꿈.|
 |기울임체       |`formatItalic`      |글자를 *기울이게* 바꿈.|
-|블록화         |`formatCode`        |If one line or less is selected, formats text as `inline code`.<br><br>If multiple lines are selected, formats them as a fenced code block, and allows you to optionally select a programming language supported by OPS.<br><br>If no language is selected, inserts an empty fenced code block.|
-|알림기능        |`insertAlert`       |Inserts a Note, Important, Warning, or Tip.<br><br>Select Alert from the menu, then select the alert type. If you have previously selected text, it will be surrounded with the selected alert syntax. If no text is selected, a new alert will be added with placeholder text.|
+|블록화         |`formatCode`        |문장이나 그 이하가 선택되면, 글자를 `블록화`처럼 바꿔줌.<br><br>여러 줄을 선택하면 분리 된 코드 블록으로 서식을 지정하고 OPS에서 지원하는 프로그래밍 언어를 선택적으로 선택할 수 있습니다.<br><br>언어를 선택하지 않으면 빈 분리 (fenced) 코드 블록을 삽입합니다.|
+|알림기능        |`insertAlert`       |메모, 중요, 경고 또는 팁 삽입.<br><br>메뉴에서 경고 종류를 선택한 다음 경보 유형을 선택하십시오.이전에 텍스트를 선택한 경우 선택한 경고 구문으로 둘러싸이게됩니다. 텍스트를 선택하지 않으면 자리 표시 자 텍스트가있는 새 경고가 추가됩니다.|
 |번호 목록|`insertNumberedList` |Inserts a new numbered list.<br><br> If multiple lines are selected, each will be a list item. Note that numbered lists show in the Markdown as all 1s, but will render on docs.microsoft.com as sequential numbers or, for nested lists, letters. To create a nested numbered list, tab from within the parent list.|
 |점 목록|`insertBulletedList` |새로운 점 목록 삽입.|
 |테이블        |`insertTable`        |Inserts a Markdown table structure.<br><br>After you select the table command, specify the number of columns and rows in the format columns:rows, such as 3:4. Note that the maximum number of columns you can specify via this extension is 5, which is the recommended maximum for readability.|
