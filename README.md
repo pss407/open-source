@@ -73,7 +73,7 @@
 2. <p>Bear<p/>
 ![bear](https://user-images.githubusercontent.com/44769544/49657668-8abb7180-fa83-11e8-867a-b76123e46024.png)
     - 다양한 테마와 깔끔한 레이아웃, 문서 간 링크 기능, 태그 및 아카이브 기능, 다양한 배포 옵션 지원, 앱과 자유로운 연동 (동기화)
-    - 하지만 애플 계열만 지원하며 폴더 미지원으로 다량의 문서 분류 불편
+    - 하지만 애플 계열만 지원하며 폴더 미지원으로 다량의 문서 분류가 불편
 
 3. <p>Byword 2<p/>
 ![byword](https://user-images.githubusercontent.com/44769544/49660034-f18f5980-fa88-11e8-83e5-2d77b94b7a2c.png)
@@ -93,7 +93,7 @@
 5. <p>Inkdrop<p/>
 ![inkdrop](https://user-images.githubusercontent.com/44769544/49662429-23a3ba00-fa8f-11e8-8547-22f7775b26aa.png)
     - 다양한 플랫폼 지원, 노트북 형식으로 폴더 지원, 태그 + 4가지 상태 (Active, On Hold, Completed, Dropped)로 분류 가능, 자체 패키지 매니저 ipm 이 있어서 오픈소스 플러그인으로 확장 기능 설치 가능
-    - 하지만 속도가 비교적 느림, 디자인이나 UI가 비교적 떨어고 유료
+    - 하지만 속도가 비교적 느림, 디자인이나 UI가 비교적 떨어지고 유료
 
 
 ### <H4>기능 설명</H4>
