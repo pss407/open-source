@@ -169,14 +169,14 @@
 
 | Shortcuts                                   | Functionality              |
 | ------------------------------------------- | -------------------------- |
-| <kbd>cmd-k v</kbd>                          | Open preview               |
-| <kbd>ctrl-shift-s</kbd>                     | Sync preview / Sync source |
-| <kbd>shift-enter</kbd>                      | Run Code Chunk             |
-| <kbd>ctrl-shift-enter</kbd>                 | Run all Code Chunks        |
-| <kbd>cmd-=</kbd> or <kbd>cmd-shift-=</kbd>  | Preview zoom in            |
-| <kbd>cmd--</kbd> or <kbd>cmd-shift-\_</kbd> | Preview zoom out           |
-| <kbd>cmd-0</kbd>                            | Preview reset zoom         |
-| <kbd>esc</kbd>                              | Toggle sidebar TOC         |
+| <kbd>cmd-k v</kbd>                          | 미리보기창 열기               |
+| <kbd>ctrl-shift-s</kbd>                     | 미리보기 동기화 / 소스 동기화 |
+| <kbd>shift-enter</kbd>                      | 코드 묶음 실행             |
+| <kbd>ctrl-shift-enter</kbd>                 | 모든 코드 묶기        |
+| <kbd>cmd-=</kbd> or <kbd>cmd-shift-=</kbd>  | 미리보기 확대            |
+| <kbd>cmd--</kbd> or <kbd>cmd-shift-\_</kbd> | 미리보기 축소           |
+| <kbd>cmd-0</kbd>                            | 미리보기 초기화         |
+| <kbd>esc</kbd>                              | 사이드바 TOC 전환         |
 
 ### <H4>기존 오픈소스에 issue 제안</H4>
     
