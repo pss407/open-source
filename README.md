@@ -238,7 +238,8 @@
 - 가장 표준화된 markdown 문법 확보 후 tutorial 서버지원
 - H 및 # 에 따른 숫자 크기 변환을 자율조절 가능하게 지원
 - Visual Studio Code로 작성한 MarkDown을 pdf형식으로 저장 지원
-- 문서화된  파일 markdown 파일로 변환 (pandoc이 존재하나 문법을 제대로 읽지못함)
+- 문서화된  파일 markdown 파일로 변환 현재 상용화된 https://github.com/jgm/pandoc/tree/master/src/Text/Pandoc  
+  이 오픈 소스는 word->md 넘어가면서 문법까진 인식이 안됨
 
 ## LICENSE
 - MIT
