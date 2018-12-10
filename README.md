@@ -147,11 +147,11 @@
 |점 목록|`insertBulletedList` |새로운 점 목록 삽입.|
 |테이블        |`insertTable`        |Markdown 테이블 구조를 삽입합니다.<br><br>테이블 명령을 선택한 후 3 : 4와 같은 형식 열 : 행의 열과 행 수를 지정하십시오. 이 확장 프로그램을 통해 지정할 수있는 최대 열 수는 5 개이며 가독성을 위해 권장되는 최대 값입니다.|
 |저장소 파일과 연결         |`selectLinkType`      |링크 삽입. 이 명령을 선택하면 다음 하위 메뉴가 나타납니다.<br><br>`External`: URI로 웹 페이지에 링크. "http" 나 "https"를 필수로 포함해야됨.<br>`Internal`: 동일한 repo에있는 다른 파일에 대한 상대 링크를 삽입하십시오. 이 옵션을 선택한 후 명령 창에 파일 이름을 입력하고 원하는 파일을 선택하십시오. <br>`Bookmark in this file`: 올바른 형식의 책갈피를 삽입하려면 현재 파일의 제목 목록에서 선택하십시오.<br>`Bookmark in another file`: 먼저 파일 이름별로 필터링하고 연결할 파일을 선택한 다음 선택한 파일에서 적절한 제목을 선택하십시오.|
-|이미지 삽입        |`insertImage`     |Type alternate text (required for accessibility) and select it, then call this command to filter the list of supported image files in the repo and select the one you want. If you haven't selected alt text when you call this command, you will be prompted for it before you can select an image file.|
+|이미지 삽입        |`insertImage`     |대체 텍스트 (액세스 가능성에 필요함)를 입력하고 선택하고이 명령을 호출하여 repo에서 지원되는 이미지 파일 목록을 필터링하고 원하는 것을 선택하십시오. 이 명령을 호출 할 때 대체 텍스트를 선택하지 않은 경우 이미지 파일을 선택하기 전에 대체 텍스트를 묻는 메시지가 표시됩니다.|
 |파일 포함시키기      |`insertInclude`   |현재 파일에 내장시킬 파일 찾음.|
 |스니펫      |`insertSnippet`   |현재 파일에 내장시킬 snippet코드를 repo에서 찾음 .|
 |비디오 삽입        |`insertVideo`     |내장된 비디오 추가.|
-|미리보기      |`previewTopic`    |Preview the active topic in a side-by-side window using the DocFX extension.  If the DocFX extension is not installed or is installed but disabled, the topic will not render.
+|미리보기      |`previewTopic`    |DocFX 확장을 사용하여 나란히있는 창에서 활성 주제를 미리 봅니다. DocFX 확장이 설치되어 있지 않거나 설치되어 있지만 비활성화되어 있으면 해당 항목이 렌더링되지 않습니다.
 
 - Preview기능 사용법
     - 파일 형식 .md로 지정
