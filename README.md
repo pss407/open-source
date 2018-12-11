@@ -32,7 +32,7 @@
 - 개발과정
 
     - <p>Vscode에서는 편집기의 시각화가 매우 편하기 때문에 Vscode에서 Markdown을 사용할 수 있는지에 대한
-      아이디어를 생각했다.<p/>
+      아이디어를 생각했다. (시각화 : 사용하면 자동 줄 맞춤, 색 구분 등)<p/>
   
     - <p>Vscode에서 Preview 동기화를 지원하고 내부 창에서 실시간으로 확인가능한 Markdown 오픈소스가 있는지
       조사했다. -> vscode-markdown-preview-enhanced<p/>
