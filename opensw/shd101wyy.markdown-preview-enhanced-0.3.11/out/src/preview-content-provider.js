@@ -368,6 +368,7 @@ class MarkdownPreviewEnhancedView {
                 }
             })
                 .catch((error) => {
+                vscode.window.showErrorMessage('만약 ["phantomjs" is required to be installed.]라는 오류라면 [ http://git.ajou.ac.kr/open-source-SW-2018-fall/kimchanghee94/blob/master/Helper.pdf ] 를 참고하세요.');
                 vscode.window.showErrorMessage(error);
             });
         }
