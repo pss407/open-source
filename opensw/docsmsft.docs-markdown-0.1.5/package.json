@@ -39,82 +39,82 @@
 			},
 			{
 				"command": "formatBold",
-				"title": "Bold",
+				"title": "굵게쓰기",
 				"category": "Docs"
 			},
 			{
 				"command": "formatItalic",
-				"title": "Italic",
+				"title": "기울임체",
 				"category": "Docs"
 			},
 			{
 				"command": "formatCode",
-				"title": "Code",
+				"title": "블록화",
 				"category": "Docs"
 			},
 			{
 				"command": "insertAlert",
-				"title": "Alert",
+				"title": "알람기능",
 				"category": "Docs"
 			},
 			{
 				"command": "insertNumberedList",
-				"title": "Numbered list",
+				"title": "번호 목록",
 				"category": "Docs"
 			},
 			{
 				"command": "insertBulletedList",
-				"title": "Bulleted list",
+				"title": "점 목록",
 				"category": "Docs"
 			},
 			{
 				"command": "insertTable",
-				"title": "Table",
+				"title": "테이블",
 				"category": "Docs"
 			},
 			{
 				"command": "selectLinkType",
-				"title": "Link to heading",
+				"title": "헤딩과 연결",
 				"category": "Docs"
 			},
 			{
 				"command": "insertLink",
-				"title": "Link to file in repo",
+				"title": "저장소의 파일 연결",
 				"category": "Docs"
 			},
 			{
 				"command": "insertURL",
-				"title": "Link to web",
+				"title": "웹페이지 연결",
 				"category": "Docs"
 			},
 			{
 				"command": "insertImage",
-				"title": "Image",
+				"title": "이미지 삽입",
 				"category": "Docs"
 			},
 			{
 				"command": "insertInclude",
-				"title": "Include",
+				"title": "파일 포함시키기",
 				"category": "Docs"
 			},
 			{
 				"command": "insertSnippet",
-				"title": "Snippets",
+				"title": "스니펫",
 				"category": "Docs"
 			},
 			{
 				"command": "insertVideo",
-				"title": "Video",
+				"title": "비디오 삽입",
 				"category": "Docs"
 			},
 			{
 				"command": "previewTopic",
-				"title": "Preview",
+				"title": "미리보기",
 				"category": "Docs"
 			},
 			{
 				"command": "applyTemplate",
-				"title": "Template",
+				"title": "작성가능한 마크다운 불러오기",
 				"category": "Docs"
 			}
 		],
