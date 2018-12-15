@@ -195,7 +195,7 @@
 
 - shd101wyy/vscode-markdown-preview-enhanced pdf변환시 뜨는 특정 오류에 대한 해결법 제시 및 해결법 명시 제안 
 
-![Alt Text](https://user-images.githubusercontent.com/43747079/50043120-0c2d8800-00b2-11e9-838e-7772791d6323.png){: width="200" height="70"}
+![Alt Text](https://user-images.githubusercontent.com/43747079/50043120-0c2d8800-00b2-11e9-838e-7772791d6323.png)
 
 
 ### <H4>실행 예시<H4>
