@@ -241,6 +241,9 @@
 - 문서화된  파일 markdown 파일로 변환 현재 상용화된 https://github.com/jgm/pandoc/tree/master/src/Text/Pandoc  
   이 오픈 소스는 word->md 넘어가면서 문법까진 인식이 안됨
 
+## Version Upgrade
+- 18.12.15 docs-markdown(0.1.5)=>docs-markdown(0.2.1)
+
 ## LICENSE
 - MIT
 - University of Illinois/NCSA Open Source License
