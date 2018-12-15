@@ -129,7 +129,8 @@
     
 ### <H4>오픈소스 사용하는 법</H5>
 - <p>설치경로</p>
-  C:\Users\사용자계정아이디\ .vscode\extensions
+  <p>C:\Users\사용자계정아이디\ .vscode\extensions</p>
+  <p>위의 경로에 다운받은 폴더4개를 옮기기</p>
 
 - docs기능 사용법
     - Docs Markdown에 접그한기 위해 type `ALT+M` 입력. 
