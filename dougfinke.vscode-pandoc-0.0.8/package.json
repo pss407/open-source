@@ -29,6 +29,11 @@
 			"type": "object",
 			"title": "Pandoc Option Configuration",
 			"properties": {
+			    "pandoc.pdfOptString": {
+                    "type": "string",
+                    "default": "",
+                    "description": "pandoc .pdf output option template that you would like to use"
+                },
 				
 				"pandoc.docxOptString": {
 					"type": "string",
