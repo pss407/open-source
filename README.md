@@ -10,7 +10,7 @@
 |---------|---------|
 |김창희(소프트웨어학과)   |자료조사, docs 오픈소스 코드 기능 변경 및 개선, README 파일 제작|
 |박승세(소프트웨어학과)   |자료조사, pandoc 오픈소스 코드 기능 변경 및 개선, README 파일 제작|
-|정소희(소프트웨어학과)   |아이디어 제공, 자료조사, phantomjs 오류 도움말 추가, 로고&ppt 및 README 파일 제작, pdf 기능 개선|
+|정소희(소프트웨어학과)   |아이디어 제공, 자료조사, phantomjs 오류 도움말 추가(pdf 기능 개선), 로고&ppt 및 README 파일 제작|
 |서동훈(수학과)   |아이디어 제공, 자료조사, README 파일 제작 
 
 ## <H3>3. 개발 동기 및 과정</H3>
@@ -193,6 +193,9 @@
 
 ![Alt Text](https://user-images.githubusercontent.com/45596085/49508835-15a33d00-f8c7-11e8-9ab9-93cc3a0521a1.PNG)
 
+- shd101wyy/vscode-markdown-preview-enhanced pdf변환시 뜨는 특정 오류에 대한 해결법 제시 및 해결법 명시 제안 
+
+![Alt Text](https://user-images.githubusercontent.com/43747079/50043073-1b600600-00b1-11e9-850b-de2dbd1be574.png)
 
 
 ### <H4>실행 예시<H4>
