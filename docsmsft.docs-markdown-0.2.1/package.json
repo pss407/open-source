@@ -301,7 +301,7 @@
 	"dependencies": {
 		"file-exists": "^5.0.1",
 		"fs-exists-sync": "^0.1.0",
-		"lodash.merge": "^4.6.0",
+		"lodash.merge": "^4.6.2",
 		"matcher": "^1.0.0",
 		"node-dir": "^0.1.17",
 		"typescript-collections": "^1.2.3",
